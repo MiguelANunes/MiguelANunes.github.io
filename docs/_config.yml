@@ -71,15 +71,15 @@ parallel_localization: true
 # Top menu order
 header_pages:
   pt_BR:
-    - sobre-pt.md
+    - index-pt_BR.markdown
   en:
-    - sobre-en.md
+    - index-en.markdown
     # - prerequisites-en.md
     # - part1-setup-en.md
     # - part2-maintain-en.md
     # - part3-multilingual-en.md
   de:
-    - sobre-de.md
+    - index-de.markdown
     # - prerequisites-de.md
     # - part1-setup-de.md
     # - part2-maintain-de.md
