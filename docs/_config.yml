@@ -18,16 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: 
+  pt_BR: Meu Blog - Miguel A. Nunes
+  en: My Blog - Miguel A. Nunes
+  de: Mein Blog - Miguel A. Nunes
+email: miguel.alfredo.nunes@gmail.com
+description: # this means to ignore newlines until "baseurl:"
+  pt_BR: Meu blog pessoal (sob construção) onde falarei sobre coisas que gosto e me interesso.
+  en: My personal blog (still under construction) where I'll talk about stuff I like and am interested by.
+  de: Mein persönlicher Blog (noch im Aufbau), der eines Tages ins Deutsche übersetzt wird.
+date_formats:
+  pt_BR: "%Y-%m-%d"
+  en: "%Y-%m-%d"
+  de: "%Y-%m-%d"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  MiguelANunes
 
 # Build settings
 theme: minima
@@ -53,3 +60,27 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Configurações para múltiplos idiomas
+languages: ["pt_BR", "en", "de"]
+default_lang: "pt_BR"
+exclude_from_localization: ["assets", "javascript", "images", "css", "public"]
+parallel_localization: true
+
+# Top menu order
+header_pages:
+  pt_BR:
+    - sobre-pt.md
+  en:
+    - sobre-en.md
+    # - prerequisites-en.md
+    # - part1-setup-en.md
+    # - part2-maintain-en.md
+    # - part3-multilingual-en.md
+  de:
+    - sobre-de.md
+    # - prerequisites-de.md
+    # - part1-setup-de.md
+    # - part2-maintain-de.md
+    # - part3-multilingual-de.md
