@@ -1,6 +1,12 @@
-# Testando
+---
+layout: page
+title: Home
+permalink: /Home/
+---
 
-Isso é um teste de arquivo .md para o blog.
+## Testando
+
+Será que é assim que faço uma homepage.
 
 ## Será que isso funciona
 
