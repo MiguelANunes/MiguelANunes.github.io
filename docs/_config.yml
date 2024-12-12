@@ -74,13 +74,5 @@ header_pages:
     - index-pt_BR.markdown
   en:
     - index-en.markdown
-    # - prerequisites-en.md
-    # - part1-setup-en.md
-    # - part2-maintain-en.md
-    # - part3-multilingual-en.md
   de:
     - index-de.markdown
-    # - prerequisites-de.md
-    # - part1-setup-de.md
-    # - part2-maintain-de.md
-    # - part3-multilingual-de.md
