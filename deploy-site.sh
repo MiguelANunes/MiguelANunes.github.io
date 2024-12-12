@@ -72,8 +72,7 @@ then
 fi
 
 # Build the site
-# JEKYLL_ENV=$jekyll_environment bundle exec jekyll build
-JEKYLL_ENV= bundle exec jekyll build
+JEKYLL_ENV=$jekyll_environment bundle exec jekyll build
 
 # Change to the _site folder
 cd _site
