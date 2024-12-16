@@ -1,9 +1,10 @@
 ---
 layout: home
 permalink: /
+title: Testando
 lang: pt_BR
 ---
 
-# Testando múltiplos idiomas
+## Teste
 
 Olá!
