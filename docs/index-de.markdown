@@ -1,9 +1,11 @@
 ---
-layout: home
+layout: page
 permalink: /
+title: About (de)
 lang: de
+sidebar_link: true
 ---
 
-# Testen Mehrerer Sprachen
+## About me (de)
 
 Hallo!

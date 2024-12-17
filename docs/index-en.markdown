@@ -1,9 +1,11 @@
 ---
-layout: home
+layout: page
 permalink: /
+title: About
 lang: en
+sidebar_link: true
 ---
 
-# Testing Multiple Languages
+## About me
 
 Hello!

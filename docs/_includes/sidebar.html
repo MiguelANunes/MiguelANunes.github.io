@@ -1,0 +1,32 @@
+{% assign lang = site.active_lang %}
+<div id="sidebar">
+  <header>
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href="{{ "/" | relative_url }}">
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+        {{ site.title[lang] }}
+      </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description[lang] }}</p>
+  </header>
+  
+  <!-- {% if site.version %}
+  <span class="site-version">Currently v{{ site.version }}</span>
+  {% endif %} -->
+  
+  <div class="wrapper">
+    {% assign is_first_language = true %}
+    {% for tongue in site.languages %}
+    {% if is_first_language == false %}|{% endif %}
+    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>
+    {% assign is_first_language = false %}
+    {% endfor %}
+  </div>
+
+  {% include sidebar-nav-links.html %}
+  
+  {% include sidebar-icon-links.html %}
+  {% include copyright.html %}
+</div>

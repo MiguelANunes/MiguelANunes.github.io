@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Título em Alemão"
 date:   2024-12-11 14:26:15 -0300
 categories: jekyll update
 lang: de
