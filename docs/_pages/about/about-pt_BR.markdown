@@ -21,7 +21,7 @@ Minhas redes sociais são pessoais, porém você pode me encontrar no:
 - [GitHub][github];
 - [LinkedIn][linkedin].
 
-Para fins acadêmicos, você pode me encontrar:
+Para fins acadêmicos, você pode me encontrar no:
 
 - [Lattes][lattes];
 - [ORCID][orcid];
