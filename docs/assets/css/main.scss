@@ -11,6 +11,13 @@ $body-color: #fff;
 $heading-color: #fff;
 $link-color: #b816ba;
 
-// $sidebar-font-family: Times, 'Times New Roman', serif;
+$code-color: #ccc;
+
+// Variáveis que posso modificar
+// https://github.com/fongandrew/hydeout/blob/master/_sass/hydeout/_variables.scss
+// Arquivos .scss do tema estão em
+// /home/miguel/.rbenv/versions/3.3.6/lib/ruby/gems/3.3.0/gems/jekyll-theme-hydeout-4.2.0
+// Ver
+// https://github.com/erikh/hydeout/commit/48e706c74c536d378b16a458b2f4eb633569ed16
 
 @import "hydeout";

@@ -32,12 +32,10 @@ date_formats:
   en: "%Y-%m-%d"
   de: "%Y-%m-%d"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://miguelanunes.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+url: "https://miguelanunes.github.io/"
 github_username: MiguelANunes
 
 # Build settings
-# theme: minima
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
@@ -62,23 +60,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# paginate: 5
-
 # Configurações para múltiplos idiomas
 languages: ["pt_BR", "en", "de"]
 default_lang: "pt_BR"
 exclude_from_localization: ["assets", "javascript", "images", "css", "public"]
 parallel_localization: true
-
-# Top menu order
-# header_pages:
-#   pt_BR:
-#     - pages/index-pt_BR.markdown
-#     - pages/teste.markdown
-#   en:
-#     - pages/index-en.markdown
-#   de:
-#     - pages/index-de.markdown
 
 include:
   - _pages
