@@ -11,7 +11,7 @@ body { text-size-adjust: 100%; }
 
 main, article, section { display: block; }
 
-a { color: #268bd2; text-decoration: none; }
+a { color: #b816ba; text-decoration: none; }
 a:hover, a:focus { text-decoration: underline; }
 a strong { color: inherit; }
 
@@ -27,8 +27,8 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 
 button, input[type='text'], input[type='email'], input[type='search'], input[type='submit'] { border: 1px solid #e5e5e5; border-radius: 300px; padding: 1em 1.5em; }
 
-button, input[type='submit'] { background: transparent; border-color: #e5e5e5; color: #268bd2; cursor: pointer; transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out, background 0.6s ease-in-out; }
-button:hover, input[type='submit']:hover { background: #268bd2; border-color: #268bd2; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); color: #fff; }
+button, input[type='submit'] { background: transparent; border-color: #e5e5e5; color: #b816ba; cursor: pointer; transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out, background 0.6s ease-in-out; }
+button:hover, input[type='submit']:hover { background: #b816ba; border-color: #b816ba; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); color: #fff; }
 
 .video-container { overflow: hidden; position: relative; width: 100%; }
 
@@ -36,7 +36,7 @@ button:hover, input[type='submit']:hover { background: #268bd2; border-color: #2
 
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-h1, h2, h3, h4, h5, h6, .site-title { color: #313131; font-weight: 600; line-height: 1.25; margin-bottom: 0.5rem; text-rendering: optimizeLegibility; }
+h1, h2, h3, h4, h5, h6, .site-title { color: #fff; font-weight: 600; line-height: 1.25; margin-bottom: 0.5rem; text-rendering: optimizeLegibility; }
 
 h1 { font-size: 2rem; }
 
@@ -71,7 +71,7 @@ a[href^='#fn:'], a[href^='#fnref:'] { display: inline-block; font-weight: bold; 
 
 .lead { font-size: 1.25rem; font-weight: 300; }
 
-a svg { fill: #268bd2; }
+a svg { fill: #b816ba; }
 
 a svg, .icon svg { height: 1em; }
 
@@ -271,13 +271,13 @@ pre code { background-color: transparent; color: inherit; font-size: 100%; paddi
  body > #sidebar > header (primary sidebar content -- i.e. title) > h1 (home page only, otherwise div or span) > secondary nav content we may want to hide on certain pages > .container > h1 (non-home page) > .content
  Basic approach is to color in body, make sidebar background transparent, and then fill in the .container or .content elements depending on how far we want the sidebar or header to stretch.
 */
-body { background-attachment: fixed; background-color: #202020; background-image: linear-gradient(to bottom, #323232, #0e0e0e); color: rgba(255, 255, 255, 0.75); display: flex; flex-direction: column; min-height: 100vh; }
+body { background-attachment: fixed; background-color: #300738; background-image: linear-gradient(to bottom, #4b0b58, #150318); color: rgba(255, 255, 255, 0.75); display: flex; flex-direction: column; min-height: 100vh; }
 
 #sidebar { flex: 0 0 auto; padding: 2rem; }
 #sidebar .site-title { font-family: 'Abril Fatface', serif; font-size: 1.25rem; font-weight: normal; margin-bottom: 0.5rem; margin-top: 0; }
 #sidebar .site-title .back-arrow { margin-right: 0.5rem; }
 
-.content { background: #fff; color: #515151; padding: 2rem; }
+.content { background: #262922; color: #fff; padding: 2rem; }
 
 .container { display: flex; flex: 1 1 auto; flex-direction: column; }
 .container > .content { flex-grow: 1; padding-bottom: 4rem; }
@@ -311,8 +311,8 @@ body { background-attachment: fixed; background-color: #202020; background-image
   #sidebar p.lead, #sidebar header ~ * { display: block; }
   #sidebar header ~ nav { display: flex; }
   .index #sidebar { margin-bottom: 0; }
-  .container { background: #fff; color: #515151; min-height: 100vh; padding: 4rem 4rem 0; margin-left: 18rem; }
-  .container > header { color: #313131; margin: 0; }
+  .container { background: #262922; color: #fff; min-height: 100vh; padding: 4rem 4rem 0; margin-left: 18rem; }
+  .container > header { color: #fff; margin: 0; }
   .container > header h1, .container > header h2 { color: inherit; }
   .container > header h1:last-child, .container > header h2:last-child { margin-bottom: 0.5rem; }
   .container > * { max-width: 38rem; padding: 0; } }
@@ -357,7 +357,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
 
 .page-title, .post-title { margin-top: 0; }
 
-.page-title, .post-title, .post-title a { color: #313131; }
+.page-title, .post-title, .post-title a { color: #fff; }
 
 h2.post-title, h2.page-title { font-size: 2rem; }
 
@@ -368,7 +368,7 @@ h2.post-title, h2.page-title { font-size: 2rem; }
 .posts-list { list-style: none; padding-left: 0; }
 .posts-list h3 { margin-top: 0; }
 .posts-list li small { color: #999; font-size: 75%; white-space: nowrap; }
-.posts-list li a:hover { color: #268bd2; text-decoration: none; }
+.posts-list li a:hover { color: #b816ba; text-decoration: none; }
 .posts-list li a:hover small { color: inherit; }
 
 article + *, .post-body ~ section { border-top: 1px solid #e5e5e5; margin-top: 2rem; padding-top: 2rem; }
@@ -384,7 +384,7 @@ button.disqus-load { margin-top: 1em; }
  Super lightweight (HTML-wise) blog pagination. Should only be visible when there is navigation available -- single buttons at top or bottom of each page.
 */
 .pagination { color: #ccc; margin-bottom: 2rem; text-align: center; }
-.pagination > a { background: #fff; border: solid #e5e5e5; border-radius: 300px; border-width: 1px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); display: inline-block; max-width: 18rem; padding: 1em 1.5em; width: 60%; }
+.pagination > a { background: #262922; border: solid #e5e5e5; border-radius: 300px; border-width: 1px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); display: inline-block; max-width: 18rem; padding: 1em 1.5em; width: 60%; }
 .pagination > a:hover { background-color: #e5e5e5; }
 
 * + .pagination { margin-top: 2rem; }
@@ -409,7 +409,7 @@ button.disqus-load { margin-top: 1em; }
 
 .tags-list a { margin-right: 0.5em; opacity: 0.75; white-space: nowrap; }
 
-.tags-list a .tag-count { background: #268bd2; border-radius: 1000px; color: rgba(255, 255, 255, 0.8); font-size: 0.75em; margin-left: 0.25em; padding-left: 0.6em; padding-right: 0.6em; }
+.tags-list a .tag-count { background: #b816ba; border-radius: 1000px; color: rgba(255, 255, 255, 0.8); font-size: 0.75em; margin-left: 0.25em; padding-left: 0.6em; padding-right: 0.6em; }
 
 .tags-list a:hover { opacity: 1; text-decoration: none; }
 
