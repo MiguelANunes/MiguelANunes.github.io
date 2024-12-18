@@ -27,12 +27,12 @@ For academic purposes, you may find me at:
 - [ORCID][orcid];
 - [Google Scholar][scholar].
 
-I wont add my full e-mail to avoid (even more) spam, but it is
+I won't add my full e-mail to avoid (even more) spam, but it is
 <code style="background-color: rgb(38, 41, 34)">my.full.name@gmail.com</code>.
 
 This blog is based on [Jekyll][jekyll], published by [GitHub Pages][ghp], the theme I'm using
 is a customization of the [Hydeout][hydeout] theme and multi language support was implemented base on a tutorial
-by Ulrich R., available [here][ulrich]. I'm thank for my friend
+by Ulrich R., available [here][ulrich]. I'm thankful for my friend
 [João Vitor Fröhlich][jvf] for his many suggestions and his help during the development of this blog.
 
 [github]: https://github.com/MiguelANunes

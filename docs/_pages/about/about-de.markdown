@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About (de)
+title: Über mich
 lang: de
 sidebar_link: true
 ---
