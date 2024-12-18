@@ -1,0 +1,16 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+$sidebar-bg-color: #300738;
+// $layout-reverse: true !default; Isso põe a sidebar na direita
+$body-bg: rgb(38, 41, 34);
+$body-color: #fff;
+// $body-muted: TODO: Colocar uma cor acinzetada aqui
+$heading-color: #fff;
+$link-color: #b816ba;
+
+// $sidebar-font-family: Times, 'Times New Roman', serif;
+
+@import "hydeout";

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /
+permalink: /about/
 title: About (de)
 lang: de
 sidebar_link: true

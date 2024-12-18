@@ -12,7 +12,7 @@
     {% if page.title == "Home" %}
       {{ site.title[lang] }}{% if site.tagline %} {{ site.tagline }}{% endif %}
     {% else %}
-      {{ page.title }} {{ site.title[lang] }}
+      {{ page.title }} &middot; {{ site.title[lang] }}
     {% endif %}
   </title>
 

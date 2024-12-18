@@ -19,14 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 
-  pt_BR: Miguel A. Nunes
-  en: Miguel A. Nunes
-  de: Miguel A. Nunes
+  pt_BR: Miguel Alfredo Nunes
+  en: Miguel Alfredo Nunes
+  de: Miguel Alfredo Nunes
 email: miguel.alfredo.nunes@gmail.com
 description:
-  pt_BR: Meu blog pessoal (em construção) onde falarei sobre coisas que gosto e me interesso.
-  en: My personal blog (still under construction) where I'll talk about stuff I like and am interested by.
-  de: Mein persönlicher Blog (noch im Aufbau), der eines Tages ins Deutsche übersetzt wird.
+  pt_BR: Meu blog pessoal onde escrevei sobre lógica, computação, vida acadêmica e outras coisas que achar interessantes.
+  en: My personal blog where I'll write about logic, computation, academic life and other things I find interesting.
+  de: Mein persönlicher Blog, in dem ich über Logik, Berechnung, das akademische Leben und andere Dinge schreibe, die ich interessant finde. Ich spreche noch kein Deutsch, daher werden die Updates auf Deutsch langsam sein.
 date_formats:
   pt_BR: "%Y-%m-%d"
   en: "%Y-%m-%d"
@@ -62,7 +62,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-paginate: 5
+# paginate: 5
 
 # Configurações para múltiplos idiomas
 languages: ["pt_BR", "en", "de"]
@@ -73,9 +73,12 @@ parallel_localization: true
 # Top menu order
 # header_pages:
 #   pt_BR:
-#     - about-pt_BR.markdown
-#     - about-pt_BR.markdown
+#     - pages/index-pt_BR.markdown
+#     - pages/teste.markdown
 #   en:
-#     - about-en.markdown
+#     - pages/index-en.markdown
 #   de:
-#     - about-de.markdown
+#     - pages/index-de.markdown
+
+include:
+  - _pages
