@@ -6,4 +6,5 @@ lang: pt_BR
 # sidebar_link: true
 ---
 
-Tenho que escrever algo aqui!
+Bem vindo ao meu blog! Logo abaixo você pode ver os posts que fiz e na barra lateral você pode encontrar links
+para as páginas explicando quem eu sou, por que esse blog existe e quais são minhas publicações.

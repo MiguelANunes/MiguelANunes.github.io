@@ -7,7 +7,8 @@ sidebar_link: true
 ---
 
 Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
-State University of Santa Catarina (UDESC in the portuguese acronym) and I'm currently pursuing a master's degree in
+State University of Santa Catarina (UDESC in the portuguese acronym), I'm a member of the Research Group on Foundations
+of Computation ([FUNÇÂO][funcao]  in the portuguese acronym) and I'm currently pursuing a master's degree in
 philosophy at the State University of Campinas (Unicamp), where the theme of my dissertation is logic and combinations of logics.
 
 My main goal with this blog is writing about the things I'm researching about in my master's, things that I'm studying and
@@ -34,6 +35,8 @@ This blog is based on [Jekyll][jekyll], published by [GitHub Pages][ghp], the th
 is a customization of the [Hydeout][hydeout] theme and multi language support was implemented base on a tutorial
 by Ulrich R., available [here][ulrich]. I'm thankful for my friend
 [João Vitor Fröhlich][jvf] for his many suggestions and his help during the development of this blog.
+
+[funcao]: https://github.com/funcao
 
 [github]: https://github.com/MiguelANunes
 [linkedin]: https://www.linkedin.com/in/miguel-nunes-9b0198341/

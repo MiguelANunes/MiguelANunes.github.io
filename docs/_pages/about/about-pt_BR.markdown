@@ -7,7 +7,8 @@ sidebar_link: true
 ---
 
 Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes (migs para os íntimos), sou bacharel em Ciência da Computação pela
-Universidade do Estado de Santa Catarina (UDESC) e atualmente estou cursando meu mestrado em Filosofia pela
+Universidade do Estado de Santa Catarina (UDESC), sou membro do Grupo de Pesquisa em Fundamentos da Computação ([FUNÇÃO][funcao])
+e atualmente estou cursando meu mestrado em Filosofia pela
 Universidade Estadual de Campinas (Unicamp), sendo lógica e combinações de lógicas o tema da minha dissertação.
 
 Meu objetivo com esse blog é escrever sobre as coisas que estou pesquisando no meu mestrado, coisas que estou estudando e que acho legais,
@@ -33,6 +34,8 @@ Não vou colocar meu e-mail por extenso para evitar (ainda mais) spam, mas ele �
 Este blog é baseado em [Jekyll][jekyll], publicado pelo [GitHub Pages][ghp], o tema que uso
 é uma customização do [Hydeout][hydeout] e o suporte para múltiplos idiomas foi feita baseado num tutorial por
 Ulrich R., disponível [aqui][ulrich]. Agradeço ao meu amigo [João Vitor Fröhlich][jvf] por suas múltiplas sugestões e ajudas durante o desenvolvimento esse blog.
+
+[funcao]: https://github.com/funcao
 
 [github]: https://github.com/MiguelANunes
 [linkedin]: https://www.linkedin.com/in/miguel-nunes-9b0198341/
