@@ -15,8 +15,9 @@
   {% endif %}
 
   <a id="subscribe-link"
-     class="icon" title="Subscribe" aria-label="Subscribe"
-     href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
+     class="icon" title="RSS" aria-label="Subscribe"
+     type="application/rss+xml"
+     href=" /rss_{{lang}}.xml">
     {% include svg/feed.svg %}
   </a>
 
