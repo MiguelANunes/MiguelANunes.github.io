@@ -5,40 +5,50 @@
     <description>My personal blog where I&apos;ll write about logic, computation, academic life and other things I find interesting.</description>
     <link href="https://miguelanunes.github.io//en/rss_en.xml" rel="self"/>
     <link href="https://miguelanunes.github.io//en/"/>
-    <pubDate>2024-12-28</pubDate>
-    <lastBuildDate>2024-12-28</lastBuildDate>
+    <pubDate>2024-12-29</pubDate>
+    <lastBuildDate>2024-12-29</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
      
       <item>
-        <title>Título em Inglês</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>My First Post</title>
+        <description>&lt;p&gt;Hello! As this is my first post I’ll be a bit more meta than I intend to in my the future.
+&lt;!-- Olá! Como esse é o meu primeiro post serei um pouco mais meta do que pretendo ser nos demais posts. --&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;As I’ve already written in the &lt;a href=&quot;/about/&quot;&gt;About&lt;/a&gt; page of this blog, I intend to write about logic and other things I enjoy (as a matter of fact, the next post should be a brief introduction to logic), but here I’ll go a bit into the details about how and why I made this blog.
+&lt;!-- Como já escrevi na página [Sobre][link-sobre] esse blog, aqui pretendo escrever sobre lógica e demais coisas que gosto (o próximo post inclusive deve ser uma introduçãozinha à lógica), mas aqui vou escrever em um pouco mais detalhes sobre como e por que fiz esse blog. --&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;how&quot;&gt;How&lt;/h3&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I’ll not go into great technical details about how I made this blog, I’ll only give an overview. I had the idea to create a personal blog for several months, in the beginning I though about using &lt;a href=&quot;https://wordpress.com/&quot;&gt;WordPress&lt;/a&gt; or &lt;a href=&quot;https://www.blogger.com/about/?bpli=1&quot;&gt;Blogger&lt;/a&gt;, that was until I talked about with my friend &lt;a href=&quot;https://joao-frohlich.github.io/&quot;&gt;João&lt;/a&gt; and he suggested using &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; for publishing it, thus using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to make the actual blog.
+&lt;!-- Não entrarei em muitos detalhes técnicos sobre como fiz esse blog, apenas darei uma visão geral. Eu tinha a ideia de fazer um blog pessoal há muitos meses, inicialmente pensava em fazer com o [WordPress][WP] ou [Blogger][BG], até comentar com meu amigo [João][jvf] sobre e ele sugerir usar o [GitHub Pages][ghp] para publicar meu blog e, como consequência, o [Jekyll][jekyll] para fazer o blog em si. --&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;At first I didn’t quite like this idea. I’m not very fond of URLs like &lt;tt&gt;repo.github.io&lt;/tt&gt; and I wasn’t very much a fan of Markdown (I now am), and I also wanted to have the option to have several languages in my blog, something that João had already researched and told me that it was a massive headache (he was right). Despite that, I chose to use GitHub Pages + Jekyll, partially because I didn’t want to work with raw HTML/CSS, partially because it seemed to be less work this way, partially because João had made his blog a month before with GH Pages and he made it seem it wasn’t all that bad (more so, I had someone to help me should I need (I did)).
+&lt;!-- Inicialmente eu não gostava demais dessa ideia. Achava (e ainda acho) as URLs  &lt;tt&gt;repositorio.github.io&lt;/tt&gt; muito feias e não era tão fã assim de Markdown (agora sou), além de que eu queria fazer um blog com múltiplos idiomas, algo que o João já tinha ido atrás e havia me falado que era uma dor de cabeça enorme (ele estava correto). Apesar de tudo isso, eu acabei decidindo usar o GitHub Pages com Jekyll, em parte por que não queria ter que trabalhar com HTML/CSS puro, em parte por que parecia ser menos trabalho fazer dessa forma, em parte por que o João tinha feito o blog dele um mês antes com o GH Pages e ele fez parecer que não seria tão ruim assim (ademais, teria alguém pra pedir socorro). --&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;At the end of the day, the majority of the problems I had were caused by my on stupidity and weren’t all that had to solve (thanks João). I’m content with the result, although there are certain things that still annoy me a little and that will have to be solved in due time.
+&lt;!-- No final das contas, a maioria dos problemas que tive foi causada pela minha própria estupidez e não foram particularmente difíceis de resolver (obrigado João). Estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo. --&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;why&quot;&gt;Why&lt;/h3&gt;
+
+&lt;p&gt;I have two main goals with this blog. The first is to have some presence in the internet beyond social media, a place were people can get to know more about me and what I do, something I found to be very common in academia.
+&lt;!-- Eu tenho dois principais objetivos com esse blog. O primeiro é ter alguma presença na internet além de redes sociais, um lugar onde pessoas podem saber mais sobre mim e o que eu faço, algo que percebo é muito comum no mundo acadêmico. --&gt;&lt;/p&gt;
+
+&lt;p&gt;The second one is to practice my writing in other languages, manly english. All pages and posts are hand translated by me (yes, even this one) for this very reason, something that dos get a bit tedious but that is undeniably important. Eventually, when I’m studying german I’ll also translate into it. Should I ever learn other languages (the next one will probably be spanish) and this blog still exists, I’ll try translating into those languages too, though I make no promises now.
+&lt;!-- O segundo objetivo é praticar minhas escrita em outros idiomas, especialmente inglês. Todas as páginas e posts são traduzidas manualmente por mim por esse exato motivo, algo que chega a ser um tanto tedioso mas cuja importância é inegável. Eventualmente, quando estiver estudando alemão, também traduzirei para ele. Caso algum dia aprenda mais idiomas (o próximo provavelmente será espanhol) e esse blog ainda existir, tentarei traduzir para esses outros idiomas também, mas não farei promessas agora. --&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-end&quot;&gt;The end&lt;/h3&gt;
+
+&lt;p&gt;That’s it for now. In 2025 I’ll write more things here, but before I have a game of Civilization VI to finish.
+&lt;!-- Por agora é isso. Em 2025 escreverei mais coisas aqui, mas antes tenho uma partida de Civilization VI para terminar. --&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>2024-12-11</pubDate>
-        <link>https://miguelanunes.github.io//jekyll/update/2024/12/11/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://miguelanunes.github.io//jekyll/update/2024/12/11/welcome-to-jekyll.html</guid>
+        <pubDate>2024-12-29</pubDate>
+        <link>https://miguelanunes.github.io//meta/2024/12/29/FirstPost.html</link>
+        <guid isPermaLink="true">https://miguelanunes.github.io//meta/2024/12/29/FirstPost.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>Meta</category>
         
       </item>
       
