@@ -11,29 +11,37 @@
     
      
       <item>
-        <title>Meu Primeiro Post</title>
-        <description>&lt;p&gt;Olá! Como esse é o meu primeiro post serei um pouco mais meta do que pretendo ser nos demais posts.&lt;/p&gt;
+        <title>My First Post</title>
+        <description>&lt;h2 id=&quot;tbd&quot;&gt;TBD&lt;/h2&gt;
 
-&lt;p&gt;Como já escrevi na página &lt;a href=&quot;/about/&quot;&gt;Sobre&lt;/a&gt; esse blog, aqui pretendo escrever sobre lógica e demais coisas que gosto (o próximo post inclusive deve ser uma introduçãozinha à lógica), mas aqui vou escrever em um pouco mais detalhes sobre como e por que fiz esse blog.&lt;/p&gt;
+&lt;!-- Olá! Como esse é o meu primeiro post serei um pouco mais meta do que pretendo ser nos demais posts.
 
-&lt;h3 id=&quot;como&quot;&gt;Como&lt;/h3&gt;
+Como já escrevi na página [Sobre][link-sobre] esse blog, aqui pretendo escrever sobre lógica e demais coisas que gosto (o próximo post inclusive deve ser uma introduçãozinha à lógica), mas aqui vou escrever em um pouco mais detalhes sobre como e por que fiz esse blog.
 
-&lt;p&gt;Não entrarei em muitos detalhes técnicos sobre como fiz esse blog, apenas darei uma visão geral. Eu tinha a ideia de fazer um blog pessoal há muitos meses, inicialmente pensava em fazer com o &lt;a href=&quot;https://wordpress.com/pt-br/&quot;&gt;WordPress&lt;/a&gt; ou &lt;a href=&quot;https://www.blogger.com/about/?bpli=1&quot;&gt;Blogger&lt;/a&gt;, até comentar com meu amigo &lt;a href=&quot;https://joao-frohlich.github.io/ptbr/&quot;&gt;João&lt;/a&gt; sobre e ele sugerir usar o &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; para publicar meu blog e, como consequência, o &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; para fazer o blog em si.&lt;/p&gt;
+### Como
 
-&lt;p&gt;Inicialmente eu não gostava demais dessa ideia. Achava (e ainda acho) as URLs  &lt;tt&gt;repositorio.github.io&lt;/tt&gt; muito feias e não era tão fã assim de Markdown (agora sou), além de que eu queria fazer um blog com múltiplos idiomas, algo que o João já tinha ido atrás e havia me falado que era uma dor de cabeça enorme (ele estava correto). Apesar de tudo isso, eu acabei decidindo usar o GitHub Pages com Jekyll, em parte por que não queria ter que trabalhar com HTML/CSS puro, em parte por que parecia ser menos trabalho fazer dessa forma, em parte por que o João tinha feito o blog dele um mês antes com o GH Pages e ele fez parecer que não seria tão ruim assim (ademais, teria alguém pra pedir socorro).&lt;/p&gt;
+Não entrarei em muitos detalhes técnicos sobre como fiz esse blog, apenas darei uma visão geral. Eu tinha a ideia de fazer um blog pessoal há muitos meses, inicialmente pensava em fazer com o [WordPress][WP] ou [Blogger][BG], até comentar com meu amigo [João][jvf] sobre e ele sugerir usar o [GitHub Pages][ghp] para publicar meu blog e, como consequência, o [Jekyll][jekyll] para fazer o blog em si.
 
-&lt;p&gt;No final das contas, a maioria dos problemas que tive foi causada pela minha própria estupidez e não foram particularmente difíceis de resolver (obrigado João). Estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo.&lt;/p&gt;
+Inicialmente eu não gostava demais dessa ideia. Achava (e ainda acho) as URLs  &lt;tt&gt;repositorio.github.io&lt;/tt&gt; muito feias e não era tão fã assim de Markdown (agora sou), além de que eu queria fazer um blog com múltiplos idiomas, algo que o João já tinha ido atrás e havia me falado que era uma dor de cabeça enorme (ele estava correto). Apesar de tudo isso, eu acabei decidindo usar o GitHub Pages com Jekyll, em parte por que não queria ter que trabalhar com HTML/CSS puro, em parte por que parecia ser menos trabalho fazer dessa forma, em parte por que o João tinha feito o blog dele um mês antes com o GH Pages e ele fez parecer que não seria tão ruim assim (ademais, teria alguém pra pedir socorro).
 
-&lt;h3 id=&quot;porque&quot;&gt;Porque&lt;/h3&gt;
+No final das contas, a maioria dos problemas que tive foi causada pela minha própria estupidez e não foram particularmente difíceis de resolver (obrigado João). Estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo.
 
-&lt;p&gt;Eu tenho dois principais objetivos com esse blog. O primeiro é ter alguma presença na internet além de redes sociais, um lugar onde pessoas podem saber mais sobre mim e o que eu faço, algo que percebo é muito comum no mundo acadêmico.&lt;/p&gt;
+### Porque
 
-&lt;p&gt;O segundo objetivo é praticar minhas escrita em outros idiomas, especialmente inglês. Todas as páginas e posts são traduzidas manualmente por mim por esse exato motivo, algo que chega a ser um tanto tedioso mas cuja importância é inegável. Eventualmente, quando estiver estudando alemão, também traduzirei para ele. Caso algum dia aprenda mais idiomas (o próximo provavelmente será espanhol) e esse blog ainda existir, tentarei traduzir para esses outros idiomas também, mas não farei promessas agora.&lt;/p&gt;
+Eu tenho dois principais objetivos com esse blog. O primeiro é ter alguma presença na internet além de redes sociais, um lugar onde pessoas podem saber mais sobre mim e o que eu faço, algo que percebo é muito comum no mundo acadêmico.
 
-&lt;h3 id=&quot;fim&quot;&gt;Fim&lt;/h3&gt;
+O segundo objetivo é praticar minhas escrita em outros idiomas, especialmente inglês. Todas as páginas e posts são traduzidas manualmente por mim por esse exato motivo, algo que chega a ser um tanto tedioso mas cuja importância é inegável. Eventualmente, quando estiver estudando alemão, também traduzirei para ele. Caso algum dia aprenda mais idiomas (o próximo provavelmente será espanhol) e esse blog ainda existir, tentarei traduzir para esses outros idiomas também, mas não farei promessas agora.
 
-&lt;p&gt;Por agora é isso. Em 2025 escreverei mais coisas aqui, mas antes tenho uma partida de Civilization VI para terminar.&lt;/p&gt;
+### Fim
 
+Por agora é isso. Em 2025 escreverei mais coisas aqui, mas antes tenho uma partida de Civilization VI para terminar.
+
+[link-sobre]: /about/
+[WP]: https://wordpress.com/pt-br/
+[BG]: https://www.blogger.com/about/?bpli=1
+[jvf]: https://joao-frohlich.github.io/ptbr/
+[jekyll]: https://jekyllrb.com/
+[ghp]: https://pages.github.com/ --&gt;
 </description>
         <pubDate>2024-12-29</pubDate>
         <link>https://miguelanunes.github.io//meta/2024/12/29/FirstPost.html</link>
