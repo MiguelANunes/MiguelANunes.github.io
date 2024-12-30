@@ -5,8 +5,8 @@
     <description>Meu blog pessoal onde escrevei sobre lógica, computação, vida acadêmica e outras coisas que achar interessante.</description>
     <link href="https://miguelanunes.github.io//en/rss_pt_BR.xml" rel="self"/>
     <link href="https://miguelanunes.github.io//en/"/>
-    <pubDate>2024-12-29</pubDate>
-    <lastBuildDate>2024-12-29</lastBuildDate>
+    <pubDate>2024-12-30</pubDate>
+    <lastBuildDate>2024-12-30</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
      
@@ -26,8 +26,8 @@
 &lt;p&gt;At first I didn’t quite like this idea. I’m not very fond of URLs like &lt;tt&gt;repo.github.io&lt;/tt&gt; and I wasn’t very much a fan of Markdown (I now am), and I also wanted to have the option to have several languages in my blog, something that João had already researched and told me that it was a massive headache (he was right). Despite that, I chose to use GitHub Pages + Jekyll, partially because I didn’t want to work with raw HTML/CSS, partially because it seemed to be less work this way, partially because João had made his blog a month before with GH Pages and he made it seem it wasn’t all that bad (more so, I had someone to help me should I need (I did)).
 &lt;!-- Inicialmente eu não gostava demais dessa ideia. Achava (e ainda acho) as URLs  &lt;tt&gt;repositorio.github.io&lt;/tt&gt; muito feias e não era tão fã assim de Markdown (agora sou), além de que eu queria fazer um blog com múltiplos idiomas, algo que o João já tinha ido atrás e havia me falado que era uma dor de cabeça enorme (ele estava correto). Apesar de tudo isso, eu acabei decidindo usar o GitHub Pages com Jekyll, em parte por que não queria ter que trabalhar com HTML/CSS puro, em parte por que parecia ser menos trabalho fazer dessa forma, em parte por que o João tinha feito o blog dele um mês antes com o GH Pages e ele fez parecer que não seria tão ruim assim (ademais, teria alguém pra pedir socorro). --&gt;&lt;/p&gt;
 
-&lt;p&gt;At the end of the day, the majority of the problems I had were caused by my on stupidity and weren’t all that had to solve (thanks João). I’m content with the result, although there are certain things that still annoy me a little and that will have to be solved in due time.
-&lt;!-- No final das contas, a maioria dos problemas que tive foi causada pela minha própria estupidez e não foram particularmente difíceis de resolver (obrigado João). Estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo. --&gt;&lt;/p&gt;
+&lt;p&gt;At the end of the day, the majority of the problems I had were caused by my on inattention, tiredness (don’t code after 9 PM kids) or lack of knowledge of how Jekyll &amp;amp; friends work. No problem was all that had to solve (thanks João) and I’m content with the result, although there are certain things that still annoy me a little and that will have to be solved in due time.
+&lt;!-- No final das contas, a maioria dos problemas que tive foi causada pela minha própria desatenção, cansaço (não programem após as 21hrs crianças) ou falta de entendimento de como funciona o Jekyll e relacionados. Nenhum problema foi particularmente difícil de resolver (obrigado João) e eu estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo. --&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;why&quot;&gt;Why&lt;/h3&gt;
 

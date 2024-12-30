@@ -5,8 +5,8 @@
     <description>Mein persönlicher Blog, in dem ich über Logik, Berechnung, das akademische Leben und andere Dinge schreibe, die ich interessant finde. Ich spreche noch kein Deutsch, daher werden die Updates auf Deutsch langsam sein.</description>
     <link href="https://miguelanunes.github.io//rss_de.xml" rel="self"/>
     <link href="https://miguelanunes.github.io//"/>
-    <pubDate>2024-12-29</pubDate>
-    <lastBuildDate>2024-12-29</lastBuildDate>
+    <pubDate>2024-12-30</pubDate>
+    <lastBuildDate>2024-12-30</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
      
@@ -22,7 +22,7 @@
 
 &lt;p&gt;Inicialmente eu não gostava demais dessa ideia. Achava (e ainda acho) as URLs  &lt;tt&gt;repositorio.github.io&lt;/tt&gt; muito feias e não era tão fã assim de Markdown (agora sou), além de que eu queria fazer um blog com múltiplos idiomas, algo que o João já tinha ido atrás e havia me falado que era uma dor de cabeça enorme (ele estava correto). Apesar de tudo isso, eu acabei decidindo usar o GitHub Pages com Jekyll, em parte por que não queria ter que trabalhar com HTML/CSS puro, em parte por que parecia ser menos trabalho fazer dessa forma, em parte por que o João tinha feito o blog dele um mês antes com o GH Pages e ele fez parecer que não seria tão ruim assim (ademais, teria alguém pra pedir socorro).&lt;/p&gt;
 
-&lt;p&gt;No final das contas, a maioria dos problemas que tive foi causada pela minha própria estupidez e não foram particularmente difíceis de resolver (obrigado João). Estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo.&lt;/p&gt;
+&lt;p&gt;No final das contas, a maioria dos problemas que tive foi causada pela minha própria desatenção, cansaço (não programem após as 21hrs crianças) ou falta de entendimento de como funciona o Jekyll e relacionados. Nenhum problema foi particularmente difícil de resolver (obrigado João) e eu estou contente com o resultado, apesar que tem certas coisas que ainda me incomodam um pouco e que irei resolver em seu tempo.&lt;/p&gt;
 
 &lt;h3 id=&quot;porque&quot;&gt;Porque&lt;/h3&gt;
 
