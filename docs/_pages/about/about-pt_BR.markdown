@@ -6,7 +6,7 @@ lang: pt_BR
 sidebar_link: true
 ---
 
-Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes (migs para os íntimos), sou bacharel em Ciência da Computação pela
+Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes, sou bacharel em Ciência da Computação pela
 Universidade do Estado de Santa Catarina (UDESC), sou membro do Grupo de Pesquisa em Fundamentos da Computação ([FUNÇÃO][funcao])
 e atualmente estou cursando meu mestrado em Filosofia pela
 Universidade Estadual de Campinas (Unicamp), sendo lógica e combinações de lógicas o tema da minha dissertação.
