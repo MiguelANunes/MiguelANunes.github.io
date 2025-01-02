@@ -4,6 +4,7 @@ permalink: /publications/
 title: Publications
 lang: en
 sidebar_link: true
+sidebar_sort_order: 2
 ---
 
 <!-- Inside each group, the works are ordered from newest to oldest. -->

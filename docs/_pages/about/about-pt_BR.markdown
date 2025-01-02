@@ -4,6 +4,7 @@ permalink: /about/
 title: Sobre
 lang: pt_BR
 sidebar_link: true
+sidebar_sort_order: 1
 ---
 
 Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes, sou bacharel em Ciência da Computação pela

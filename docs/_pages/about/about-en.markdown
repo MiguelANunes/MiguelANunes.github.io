@@ -4,6 +4,7 @@ permalink: /about/
 title: About
 lang: en
 sidebar_link: true
+sidebar_sort_order: 1
 ---
 
 Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
