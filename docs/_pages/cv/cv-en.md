@@ -7,7 +7,7 @@ sidebar_link: true
 sidebar_sort_order: 3
 ---
 
-You can download my resume (in portuguese) clicking [here][CV]{:target="_blank"}.
+You can download my resume clicking [here][CV]{:target="_blank"}.
 
 Last Updated: January 2025
 
