@@ -6,6 +6,7 @@ categories: Meta
 lang: pt_BR
 excerpt: "Falando um pouco sobre esse blog."
 ---
+
 Olá! Como esse é o meu primeiro post serei um pouco mais meta do que pretendo ser nos demais posts.
 
 Como já escrevi na página [Sobre][link-sobre] esse blog, aqui pretendo escrever sobre lógica e demais coisas que gosto (o próximo post inclusive deve ser uma introduçãozinha à lógica), mas aqui vou escrever em um pouco mais detalhes sobre como e por que fiz esse blog.
