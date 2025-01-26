@@ -9,7 +9,7 @@ sidebar_sort_order: 1
 
 Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
 State University of Santa Catarina (UDESC in the portuguese acronym), I'm a member of the Research Group on Foundations
-of Computation ([FUNÇÂO][funcao]  in the portuguese acronym) and I'm currently pursuing a master's degree in
+of Computation ([FUNÇÃO][funcao]  in the portuguese acronym) and I'm currently pursuing a master's degree in
 philosophy at the State University of Campinas (Unicamp), where the theme of my dissertation is logic and combinations of logics.
 
 My main goal with this blog is writing about the things I'm researching about in my master's, things that I'm studying and

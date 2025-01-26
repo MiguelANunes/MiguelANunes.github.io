@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /pubs/
 title: Publikationen
 lang: de
 sidebar_link: true
