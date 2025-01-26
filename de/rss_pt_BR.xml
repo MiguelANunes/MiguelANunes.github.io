@@ -5,9 +5,90 @@
     <description>Meu blog pessoal onde escrevei sobre lógica, computação, vida acadêmica e outras coisas que achar interessante.</description>
     <link href="https://miguelanunes.github.io//de/rss_pt_BR.xml" rel="self"/>
     <link href="https://miguelanunes.github.io//de/"/>
-    <pubDate>2025-01-25</pubDate>
-    <lastBuildDate>2025-01-25</lastBuildDate>
+    <pubDate>2025-01-26</pubDate>
+    <lastBuildDate>2025-01-26</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+     
+      <item>
+        <title>Brincado (e sofrendo) com LaTeX</title>
+        <description>&lt;h2 id=&quot;tbd&quot;&gt;TBD&lt;/h2&gt;
+
+&lt;!-- No começo de dezembro de 2024 eu apresentei um artigo no [Simpósio Brasileiro de Métodos Formais][sbmf] e quando estava preparando meus slides, eu percebi que não tinha nenhum template para slides em LaTeX pronto e tive que customizar um template da UDESC que eu tinha de apresentações passadas.
+
+Depois da apresentação eu fiquei pensando sobre quanto tempo eu tinha gasto customizando (brigando com) esse template ao invés de fazer a apresentação em si, o que me deu a ideia de criar meus próprios templates, não só para apresentações de slides, mas também para artigos, ambos em português e inglês e também montar um pacote com minhas macros e outras definições uteis que fiz com os anos. Nesse post eu vou falar um pouco sobre a aventura que foi isso.
+
+Apesar que o template de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; de definições úteis em um pacote &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt;. O principal motivo por trás dessa decisão foi o fato do template de slides sobre o qual iria me basear ter alguns... problemas que eu não queria ter que lidar naquele momento.
+
+Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito, por exemplo o que faz o comando &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\relax&lt;/code&gt; (nada, literalmente), o que fazem os comandos &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\makeatletter&lt;/code&gt; (força o símbolo &quot;@&quot; a ser interpretado como uma letra) e &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\makeatother&lt;/code&gt; (força o símbolo &quot;@&quot; a ser interpretado como um símbolo especial) e a diferença entre &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\usepackage&lt;/code&gt; e &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\RequirePackage&lt;/code&gt; (o primeiro deve ser usado em arquivos &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; e o segundo em &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt;). No mais, essa parte foi fácil, copiei todas as minhas definições do &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; para um &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt; de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto... depois eu fiquei cerca de uma hora debugando a opções, sim, porém isso são detalhes.
+
+Com isso feito, eu parti para fazer os meus templates de artigos em português e inglês, algo que também foi um tanto fácil. Como eu já tinha feito dezenas de artigos em LaTeX foi apenas uma questão de ver quais pacotes eu normalmente usava, criar um comentário explicando o que cada um faz e preencher alguns campos como o autor e o título de algumas seções. As diferenças entre as versões em português e inglês são mínimas, então não irei dar detalhes sobre.
+
+Após eu pretendia fazer o meu template de slides, porém a minha falta de vontade de arrumar o problema neles falou mais alto e eu decidi antes criar um pacote com as minhas customizações específicas para slides, algo que foi trivialmente fácil pois tenho pouquíssimas dessas.
+
+Enfim era a hora de enfrentar os problemas no meu template de slides. O template que tinha da UDESC era uma customização de um tema chamado [ru theme][ru-theme] e eu gosto bastante dele, quase todo o espaço do slide é dedicado ao conteúdo do slide em si, o título e (sub)seção atual estão no topo do slide e o título da apresentação assim como nome do(s) autor(es), data e contador de slides estão na base do slide. O problema estava na parte de cima do slide, na caixa que contém o título do slide, ela terminava um pixel antes da borda do slide.
+
+![Imagem-do-tema-da-UDESC][imagem1]
+*Repare o canto direito da imagem*
+
+Eu não consigo descrever o quanto isso me incomodava, mas eu imagino que você, caro leitor, também se sinta incomodado por isso. Estranhamente, eu não conseguia reproduzir isso na versão original do tema no meu computador.
+
+![Imagem-do-tema-da-original][imagem2]
+*Repare o canto direito da imagem*
+
+Eu então passei um dia inteiro batendo a cabeça sobre o que poderia estar causando isso, pesquisei o que era cada componente do tema, mudei praticamente todas as definições, tentei tirar cada componente para ver se descobria o erro, mas nada resolvia. Após muitas tentativas de arrumar o tema da UDESC, eu fui para o tema original, na esperança que o erro estava em alguma modificação feita no tema da UDESC. Imediatamente eu me deparei com um aviso que alguma imagem de background não estava sendo carregada, eu então removi essa importação, compilei meus slides e vi que problema havia voltado.
+
+Nesse momento eu lembrei de um excelente vídeo do Computerphile sobre [fusos horários][Computerphile], questionei se valia a pena fazer o que eu estava fazendo, fechei o VSCode e levei meu cachorro pra passear.
+
+Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;beamer&lt;/code&gt;. Eu então fui atrás de uma lista de temas do &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;beamer&lt;/code&gt; quando me deparei com o tema [Warsaw][warsaw] e percebi, para minha surpresa, que ele era praticamente igual ao [ru theme][ru-theme]. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme.
+
+Após alguns minutos fuçando pela internet e depois por minha instalação local de LaTeX, eu achei o código fonte do tema e, consequentemente, eu [calmamente][calmly] exclamei minha surpresa e minha insatisfação com o criador do ru theme.
+
+O motivo é simples. Abaixo está a definição da caixa que contém o título dos slides no ru theme:
+
+&lt;pre style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;
+\begin{pgfpicture}{0.1mm}{0pt}{1.01\paperwidth}{\beamer@tempdim}
+  \usebeamercolor{frametitle right}
+  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+  \pgfusepath{clip}
+  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
+\end{pgfpicture}
+&lt;/pre&gt;
+
+E abaixo está a definição no tema Warsaw:
+
+&lt;pre style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;
+\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+  \usebeamercolor{frametitle right}
+  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+  \pgfusepath{clip}
+  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
+\end{pgfpicture}
+&lt;/pre&gt;
+
+Agora, caro leitor, você deve estar se perguntando &quot;Miguel, por que você não tentou mudar esse valor?&quot;, e eu lhe respondo: Eu tentei. Várias vezes. Mas, como esse valor é um deslocamento, eu tentei colocar apenas valores *maiores* que 0.1mm, imaginando que esse deslocamento era muito pequeno para esse uso.
+
+De qualquer forma, eu erroneamente acreditei que os valores que o criador do tema havia fornecido estariam corretos. Talvez eles estivessem, para o uso que o criador tinha em mente quando ele fez este tema. Nunca saberemos.
+
+Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas criar um template para um evento que estou ajudando a organizar e converte um arquivo &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; em um &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.docx&lt;/code&gt; (essa foi uma dor de cabeça) mas nada demais para registrar aqui.
+
+[sbmf]: http://sbmf24.ifes.edu.br/
+[ru-theme]: https://github.com/aldomann/latex-templates/blob/master/Beamer%20Template/ru-theme.sty
+[imagem1]: https://miguelanunes.github.io//assets/Imagens/udesc.jpg
+[imagem2]: https://miguelanunes.github.io//assets/Imagens/original.jpg
+[Computerphile]: https://youtu.be/-5wpm-gesOY?si=04NiR97PpAMbTRZL&amp;t=158
+[warsaw]: https://latex-beamer.com/tutorials/beamer-themes/5/#Warsaw
+[calmly]: https://www.youtube.com/watch?v=IdoD2147Fik --&gt;
+</description>
+        <pubDate>2025-01-25</pubDate>
+        <link>https://miguelanunes.github.io//academia/2025/01/25/LaTeX.html</link>
+        <guid isPermaLink="true">https://miguelanunes.github.io//academia/2025/01/25/LaTeX.html</guid>
+        
+        
+        <category>Academia</category>
+        
+      </item>
+      
     
      
       <item>
