@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://miguelanunes.github.io//en/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miguelanunes.github.io//en/" rel="alternate" type="text/html" /><updated>2025-02-19T10:26:10-03:00</updated><id>https://miguelanunes.github.io//feed.xml</id><title type="html">{“pt_BR”=&amp;gt;”Miguel Alfredo Nunes”, “en”=&amp;gt;”Miguel Alfredo Nunes”, “de”=&amp;gt;”Miguel Alfredo Nunes”}</title><subtitle>{&quot;pt_BR&quot;=&gt;&quot;Meu blog pessoal onde escreverei sobre lógica, computação, vida acadêmica e outras coisas que achar interessante.&quot;, &quot;en&quot;=&gt;&quot;My personal blog where I&apos;ll write about logic, computation, academic life and other things I find interesting.&quot;, &quot;de&quot;=&gt;&quot;Mein persönlicher Blog, in dem ich über Logik, Berechnung, das akademische Leben und andere Dinge schreibe, die ich interessant finde. Ich spreche noch kein Deutsch, daher werden die Updates auf Deutsch langsam sein.&quot;}</subtitle><entry xml:lang="en"><title type="html">Messing (and suffering) with LaTeX</title><link href="https://miguelanunes.github.io//en/academia/2025/01/25/LaTeX.html" rel="alternate" type="text/html" title="Messing (and suffering) with LaTeX" /><published>2025-01-25T15:35:00-03:00</published><updated>2025-01-25T15:35:00-03:00</updated><id>https://miguelanunes.github.io//academia/2025/01/25/LaTeX</id><content type="html" xml:base="https://miguelanunes.github.io//academia/2025/01/25/LaTeX.html"><![CDATA[<p>Early in December 2024 I presented a paper in the <a href="http://sbmf24.ifes.edu.br/">Brazilian Symposium on Formal Methods</a> and while I prepared my slides, I noticed that I did not have a proper
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://miguelanunes.github.io//en/feed.xml" rel="self" type="application/atom+xml" /><link href="https://miguelanunes.github.io//en/" rel="alternate" type="text/html" /><updated>2025-02-19T16:22:40-03:00</updated><id>https://miguelanunes.github.io//feed.xml</id><title type="html">{“pt_BR”=&amp;gt;”Miguel Alfredo Nunes”, “en”=&amp;gt;”Miguel Alfredo Nunes”, “de”=&amp;gt;”Miguel Alfredo Nunes”}</title><subtitle>{&quot;pt_BR&quot;=&gt;&quot;Meu blog pessoal onde escreverei sobre lógica, computação, vida acadêmica e outras coisas que achar interessante.&quot;, &quot;en&quot;=&gt;&quot;My personal blog where I&apos;ll write about logic, computation, academic life and other things I find interesting.&quot;, &quot;de&quot;=&gt;&quot;Mein persönlicher Blog, in dem ich über Logik, Berechnung, das akademische Leben und andere Dinge schreibe, die ich interessant finde. Ich spreche noch kein Deutsch, daher werden die Updates auf Deutsch langsam sein.&quot;}</subtitle><entry xml:lang="en"><title type="html">Messing (and suffering) with LaTeX</title><link href="https://miguelanunes.github.io//en/academia/2025/01/25/LaTeX.html" rel="alternate" type="text/html" title="Messing (and suffering) with LaTeX" /><published>2025-01-25T00:00:00-03:00</published><updated>2025-01-25T00:00:00-03:00</updated><id>https://miguelanunes.github.io//academia/2025/01/25/LaTeX</id><content type="html" xml:base="https://miguelanunes.github.io//academia/2025/01/25/LaTeX.html"><![CDATA[<p>Early in December 2024 I presented a paper in the <a href="http://sbmf24.ifes.edu.br/">Brazilian Symposium on Formal Methods</a> and while I prepared my slides, I noticed that I did not have a proper
 template for slides in LaTeX and I had to customize a template and a theme from my university that I had laying in my computer.
 <!-- No começo de dezembro de 2024 eu apresentei um artigo no [Simpósio Brasileiro de Métodos Formais][sbmf] e quando estava preparando meus slides, eu percebi que não tinha nenhum template para slides em LaTeX pronto e tive que customizar um template da UDESC que eu tinha de apresentações passadas. --></p>
 
@@ -9,22 +9,22 @@ In this post I’ll talk about the adventure that was this.
 <!-- Depois da apresentação eu fiquei pensando sobre quanto tempo eu tinha gasto customizando esse template e brigando com o tema dele ao invés de fazer a apresentação em si, o que me deu a ideia de criar meu próprio tema de slides, assim como templates para apresentações de slides e para artigos, ambos em português e inglês, assim como montar um pacote com minhas macros e outras definições uteis que fiz com os anos. Nesse post eu vou falar um pouco sobre a aventura que foi isso. --></p>
 
 <p>In spite of the fact that the template for slides was what led me to have this idea initially, I chose to begin by converting a
-<code style="background-color: rgb(38, 41, 34)">.tex</code> file of useful definitions and macros into a <code style="background-color: rgb(38, 41, 34)">.sty</code>
+<code class="language-plaintext highlighter-rouge">.tex</code> file of useful definitions and macros into a <code class="language-plaintext highlighter-rouge">.sty</code>
 package. The main reason behind this choice was the fact that the slide template that I was going to change had some… issues that I didn’t want to deal with in that moment.
-<!-- Apesar que o template de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo <code style="background-color: rgb(38, 41, 34)">.tex</code> de definições úteis em um pacote <code style="background-color: rgb(38, 41, 34)">.sty</code>. O principal motivo por trás dessa decisão foi o fato do template de slides sobre o qual iria me basear ter alguns... problemas que eu não queria ter que lidar naquele momento. --></p>
+<!-- Apesar que o template de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo `.tex` de definições úteis em um pacote `.sty`. O principal motivo por trás dessa decisão foi o fato do template de slides sobre o qual iria me basear ter alguns... problemas que eu não queria ter que lidar naquele momento. --></p>
 
 <p>Starting with this conversion was a good idea because I learnt how a few things in LaTeX that I had already stumbled into actually worked.
-For example, what does the <code style="background-color: rgb(38, 41, 34)">\relax</code> command do (nothing, literally), what do the
-<code style="background-color: rgb(38, 41, 34)">\makeatletter</code> and
-<code style="background-color: rgb(38, 41, 34)">\makeatother</code> (respectively makes the @ symbol be interpreted as a letter and a special character)
-commands do and the difference between <code style="background-color: rgb(38, 41, 34)">\usepackage</code> and
-<code style="background-color: rgb(38, 41, 34)">\RequirePackage</code> (the first should only be used in
-<code style="background-color: rgb(38, 41, 34)">.tex</code> files and the second should only be used in
-<code style="background-color: rgb(38, 41, 34)">.sty</code> files).
-All things considered, this part was easy, all I had to do was copy the definitions from the <code style="background-color: rgb(38, 41, 34)">.tex</code> file
-to a <code style="background-color: rgb(38, 41, 34)">.sty</code> of same name, added some options to conditionally load some packages, added some more comments
+For example, what does the <code class="language-plaintext highlighter-rouge">\relax</code> command do (nothing, literally), what do the
+<code class="language-plaintext highlighter-rouge">\makeatletter</code> and
+<code class="language-plaintext highlighter-rouge">\makeatother</code> (respectively makes the @ symbol be interpreted as a letter and a special character)
+commands do and the difference between <code class="language-plaintext highlighter-rouge">\usepackage</code> and
+<code class="language-plaintext highlighter-rouge">\RequirePackage</code> (the first should only be used in
+<code class="language-plaintext highlighter-rouge">.tex</code> files and the second should only be used in
+<code class="language-plaintext highlighter-rouge">.sty</code> files).
+All things considered, this part was easy, all I had to do was copy the definitions from the <code class="language-plaintext highlighter-rouge">.tex</code> file
+to a <code class="language-plaintext highlighter-rouge">.sty</code> of same name, added some options to conditionally load some packages, added some more comments
 explaining everything and it was done… after I spent about an hour debugging the options, yes, but those are minor details.
-<!-- Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito, por exemplo o que faz o comando <code style="background-color: rgb(38, 41, 34)">\relax</code> (nada, literalmente), o que fazem os comandos <code style="background-color: rgb(38, 41, 34)">\makeatletter</code> (força o símbolo "@" a ser interpretado como uma letra) e <code style="background-color: rgb(38, 41, 34)">\makeatother</code> (força o símbolo "@" a ser interpretado como um símbolo especial) e a diferença entre <code style="background-color: rgb(38, 41, 34)">\usepackage</code> e <code style="background-color: rgb(38, 41, 34)">\RequirePackage</code> (o primeiro deve ser usado em arquivos <code style="background-color: rgb(38, 41, 34)">.tex</code> e o segundo em <code style="background-color: rgb(38, 41, 34)">.sty</code>). No mais, essa parte foi fácil, copiei todas as minhas definições do <code style="background-color: rgb(38, 41, 34)">.tex</code> para um <code style="background-color: rgb(38, 41, 34)">.sty</code> de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto... depois eu fiquei cerca de uma hora debugando a opções, sim, porém isso são detalhes. --></p>
+<!-- Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito, por exemplo o que faz o comando `\relax` (nada, literalmente), o que fazem os comandos `\makeatletter` (força o símbolo "@" a ser interpretado como uma letra) e `\makeatother` (força o símbolo "@" a ser interpretado como um símbolo especial) e a diferença entre `\usepackage` e `\RequirePackage` (o primeiro deve ser usado em arquivos `.tex` e o segundo em `.sty`). No mais, essa parte foi fácil, copiei todas as minhas definições do `.tex` para um `.sty` de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto... depois eu fiquei cerca de uma hora debugando a opções, sim, porém isso são detalhes. --></p>
 
 <p>With that done, I then went on to make my templates for papaers in both portuguese and english, something that also was rather easy.
 As I already had made dozens of papers in LateX this was only a matter of checking which packages I normally used, adding some comments explaining what each package does
@@ -66,7 +66,7 @@ dog for a walk.
 <p>It took a few days for my will to work on this return, but when it did I decied that I was going to abandon this cursed theme and customize one of the standard themes
 from beamer. I then looked for a list of all standard beamer themes when I noticed that the <a href="https://latex-beamer.com/tutorials/beamer-themes/5/#Warsaw">Warsaw</a> theme was nearly identical to the <a href="https://github.com/aldomann/latex-templates/blob/master/Beamer%20Template/ru-theme.sty">ru theme</a> I was
 trying to customize. After thinking for a few moments, I decided that I was going to find out what on earth was wrong with this theme.
-<!-- Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do <code style="background-color: rgb(38, 41, 34)">beamer</code>. Eu então fui atrás de uma lista de temas do <code style="background-color: rgb(38, 41, 34)">beamer</code> quando me deparei com o tema [Warsaw][warsaw] e percebi, para minha surpresa, que ele era praticamente igual ao [ru theme][ru-theme]. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme. --></p>
+<!-- Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do `beamer`. Eu então fui atrás de uma lista de temas do `beamer` quando me deparei com o tema [Warsaw][warsaw] e percebi, para minha surpresa, que ele era praticamente igual ao [ru theme][ru-theme]. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme. --></p>
 
 <p>After several minutes scrounging the internet and my local installation of LaTeX, I found the souce code of the theme and, immediately afterwards, I <a href="https://www.youtube.com/watch?v=IdoD2147Fik">calmly</a>
 exclamed my surprise and insatisfaction with the creator of ru theme.
@@ -75,26 +75,24 @@ exclamed my surprise and insatisfaction with the creator of ru theme.
 <p>The reason is quite simple. Bellow is the definition of the title box in ru theme:
 <!-- O motivo é simples. Abaixo está a definição da caixa que contém o título dos slides no ru theme: --></p>
 
-<pre style="background-color: rgb(38, 41, 34)">
-\begin{pgfpicture}{0.1mm}{0pt}{1.01\paperwidth}{\beamer@tempdim}
-  \usebeamercolor{frametitle right}
-  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-  \pgfusepath{clip}
-  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-\end{pgfpicture}
-</pre>
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">\begin{pgfpicture}</span><span class="p">{</span>0.1mm<span class="p">}{</span>0pt<span class="p">}{</span>1.01<span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}</span>
+  <span class="k">\usebeamercolor</span><span class="p">{</span>frametitle right<span class="p">}</span>
+  <span class="k">\pgfpathrectangle</span><span class="p">{</span><span class="k">\pgfpointorigin</span><span class="p">}{</span><span class="k">\pgfpoint</span><span class="p">{</span><span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}}</span>
+  <span class="k">\pgfusepath</span><span class="p">{</span>clip<span class="p">}</span>
+  <span class="k">\pgftext</span><span class="na">[left,base]</span><span class="p">{</span><span class="k">\pgfuseshading</span><span class="p">{</span>beamer@frametitleshade<span class="p">}}</span>
+<span class="nt">\end{pgfpicture}</span>
+</code></pre></div></div>
 
 <p>And bellow is the definition of the same box in Warsaw:
 <!-- E abaixo está a definição no tema Warsaw: --></p>
 
-<pre style="background-color: rgb(38, 41, 34)">
-\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
-  \usebeamercolor{frametitle right}
-  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-  \pgfusepath{clip}
-  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-\end{pgfpicture}
-</pre>
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">\begin{pgfpicture}</span><span class="p">{</span>0pt<span class="p">}{</span>0pt<span class="p">}{</span><span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}</span>
+  <span class="k">\usebeamercolor</span><span class="p">{</span>frametitle right<span class="p">}</span>
+  <span class="k">\pgfpathrectangle</span><span class="p">{</span><span class="k">\pgfpointorigin</span><span class="p">}{</span><span class="k">\pgfpoint</span><span class="p">{</span><span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}}</span>
+  <span class="k">\pgfusepath</span><span class="p">{</span>clip<span class="p">}</span>
+  <span class="k">\pgftext</span><span class="na">[left,base]</span><span class="p">{</span><span class="k">\pgfuseshading</span><span class="p">{</span>beamer@frametitleshade<span class="p">}}</span>
+<span class="nt">\end{pgfpicture}</span>
+</code></pre></div></div>
 
 <p>Notice how the value of the first argument is different. Yes, that was the problem. Zero point one milimetres.</p>
 
@@ -107,9 +105,9 @@ he made this theme. We shall never know.
 <!-- De qualquer forma, eu erroneamente acreditei que os valores que o criador do tema havia fornecido estariam corretos. Talvez eles estivessem, para o uso que o criador tinha em mente quando ele fez este tema. Nunca saberemos. --></p>
 
 <p>So, after this joyous experience, I had some other minor run ins with LaTeX, amidst then I finished my template for slides, I created a template for abstract for an
-event I’m helping to organize here and I had to convert a <code style="background-color: rgb(38, 41, 34)">.tex</code> file into a
-<code style="background-color: rgb(38, 41, 34)">.docx</code>, which was as fun as it sounds. None of which were interesting enough to document here.
-<!-- Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas montar meu template de slides, criar um template para um evento que estou ajudando a organizar e converter um arquivo <code style="background-color: rgb(38, 41, 34)">.tex</code> em um <code style="background-color: rgb(38, 41, 34)">.docx</code> (essa foi uma dor de cabeça) mas nada demais para registrar aqui. --></p>]]></content><author><name></name></author><category term="Academia" /><summary type="html"><![CDATA[In this post I'll talk about my adventures with LaTeX in the last month and a half.]]></summary></entry><entry xml:lang="en"><title type="html">My First Post</title><link href="https://miguelanunes.github.io//en/meta/2024/12/29/FirstPost.html" rel="alternate" type="text/html" title="My First Post" /><published>2024-12-29T12:20:00-03:00</published><updated>2024-12-29T12:20:00-03:00</updated><id>https://miguelanunes.github.io//meta/2024/12/29/FirstPost</id><content type="html" xml:base="https://miguelanunes.github.io//meta/2024/12/29/FirstPost.html"><![CDATA[<p>Hello! As this is my first post I’ll be a bit more meta than I intend to in my the future.
+event I’m helping to organize here and I had to convert a <code class="language-plaintext highlighter-rouge">.tex</code> file into a
+<code class="language-plaintext highlighter-rouge">.docx</code>, which was as fun as it sounds. None of which were interesting enough to document here.
+<!-- Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas montar meu template de slides, criar um template para um evento que estou ajudando a organizar e converter um arquivo `.tex` em um `.docx` (essa foi uma dor de cabeça) mas nada demais para registrar aqui. --></p>]]></content><author><name></name></author><category term="Academia" /><summary type="html"><![CDATA[In this post I'll talk about my adventures with LaTeX in the last month and a half.]]></summary></entry><entry xml:lang="en"><title type="html">My First Post</title><link href="https://miguelanunes.github.io//en/meta/2024/12/29/FirstPost.html" rel="alternate" type="text/html" title="My First Post" /><published>2024-12-29T12:20:00-03:00</published><updated>2024-12-29T12:20:00-03:00</updated><id>https://miguelanunes.github.io//meta/2024/12/29/FirstPost</id><content type="html" xml:base="https://miguelanunes.github.io//meta/2024/12/29/FirstPost.html"><![CDATA[<p>Hello! As this is my first post I’ll be a bit more meta than I intend to in my the future.
 <!-- Olá! Como esse é o meu primeiro post serei um pouco mais meta do que pretendo ser nos demais posts. --></p>
 
 <p>As I’ve already written in the <a href="/en/about/">About</a> page of this blog, I intend to write about logic and other things I enjoy (as a matter of fact, the next post should be a brief introduction to logic), but here I’ll go a bit into the details about how and why I made this blog.

@@ -65,16 +65,28 @@
     
     
     
-    <a style="font-weight: bold;" href="/academia/2025/01/25/LaTeX.html" >pt_BR</a>
+      
+        <a 
+          
+            style="font-weight: bold;"
+          
+          href="/academia/2025/01/25/LaTeX.html" >
+        Português</a>
+      
     
+      |
+        <a 
+          
+          href="/en/academia/2025/01/25/LaTeX.html" >
+         English</a>
+      
     
-    |
-    <a  href="/en/academia/2025/01/25/LaTeX.html" >en</a>
-    
-    
-    |
-    <a  href="/de/academia/2025/01/25/LaTeX.html" >de</a>
-    
+      |
+        <a 
+          
+          href="/de/academia/2025/01/25/LaTeX.html" >
+         Deutsch</a>
+      
     
   </div>
 
@@ -109,14 +121,14 @@
   
     
       <a class="page-link "
-          href="/about/">Sobre</a>
+          href="/posts/">Meus Posts</a>
     
   
 
   
     
       <a class="page-link "
-          href="/pubs/">Publicações</a>
+          href="/pubs/">Pesquisa</a>
     
   
 
@@ -208,7 +220,7 @@
 
 
     <p class="back-link">
-        <a href="/"><span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <a href="/posts/"><span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
   <path d="M0 0h24v24H0z" fill="none"/>
   <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
 </svg></span></a>
@@ -220,11 +232,10 @@
   <h1 class="post-title">Brincado (e sofrendo) com LaTeX</h1>
 </header>
 <div class="content">
-  
-
-<div class="post-meta">
-  <!-- <span class="post-date"></span> -->
-  <span class="dt-published" datetime="2025-01-25T15:35:00-03:00" itemprop="datePublished">2025-01-25
+  <div class="post-meta">
+  <span class="post-date"></span>
+  <span class="dt-published" datetime="2025-01-25T00:00:00-03:00" itemprop="datePublished">
+    2025-01-25
   </span>
   <span class="post-categories">
     
@@ -249,7 +260,7 @@
 
 <p>Apesar que o tema de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo <code class="language-plaintext highlighter-rouge">.tex</code> de definições úteis em um pacote <code class="language-plaintext highlighter-rouge">.sty</code>. O principal motivo por trás dessa decisão foi o fato do tema de slides sobre o qual iria me basear ter alguns… problemas que eu não queria ter que lidar naquele momento.</p>
 
-<p>Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito. 
+<p>Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito.
 Por exemplo, o que faz o comando <code class="language-plaintext highlighter-rouge">\relax</code> (nada, literalmente), o que fazem os comandos <code class="language-plaintext highlighter-rouge">\makeatletter</code> e <code class="language-plaintext highlighter-rouge">\makeatother</code> (respectivamente, forçam o símbolo “@” a ser interpretado como uma letra e como um símbolo especial) e a diferença entre <code class="language-plaintext highlighter-rouge">\usepackage</code> e <code class="language-plaintext highlighter-rouge">\RequirePackage</code> (o primeiro deve ser usado em arquivos <code class="language-plaintext highlighter-rouge">.tex</code> e o segundo em <code class="language-plaintext highlighter-rouge">.sty</code>). No mais, essa parte foi fácil, copiei todas as minhas definições do <code class="language-plaintext highlighter-rouge">.tex</code> para um <code class="language-plaintext highlighter-rouge">.sty</code> de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto… depois eu fiquei cerca de uma hora debugando as opções, sim, porém isso são detalhes.</p>
 
 <p>Com isso feito, eu parti para fazer os meus templates de artigos em português e inglês, algo que também foi um tanto fácil. Como eu já tinha feito dezenas de artigos em LaTeX foi apenas uma questão de ver quais pacotes eu normalmente usava, criar um comentário explicando o que cada um faz e preencher alguns campos como o autor e o título de algumas seções. As diferenças entre as versões em português e inglês são mínimas, então não irei dar detalhes sobre.</p>

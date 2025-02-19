@@ -23,22 +23,22 @@ In this post I’ll talk about the adventure that was this.
 &lt;!-- Depois da apresentação eu fiquei pensando sobre quanto tempo eu tinha gasto customizando esse template e brigando com o tema dele ao invés de fazer a apresentação em si, o que me deu a ideia de criar meu próprio tema de slides, assim como templates para apresentações de slides e para artigos, ambos em português e inglês, assim como montar um pacote com minhas macros e outras definições uteis que fiz com os anos. Nesse post eu vou falar um pouco sobre a aventura que foi isso. --&gt;&lt;/p&gt;
 
 &lt;p&gt;In spite of the fact that the template for slides was what led me to have this idea initially, I chose to begin by converting a
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; file of useful definitions and macros into a &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file of useful definitions and macros into a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.sty&lt;/code&gt;
 package. The main reason behind this choice was the fact that the slide template that I was going to change had some… issues that I didn’t want to deal with in that moment.
-&lt;!-- Apesar que o template de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; de definições úteis em um pacote &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt;. O principal motivo por trás dessa decisão foi o fato do template de slides sobre o qual iria me basear ter alguns... problemas que eu não queria ter que lidar naquele momento. --&gt;&lt;/p&gt;
+&lt;!-- Apesar que o template de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo `.tex` de definições úteis em um pacote `.sty`. O principal motivo por trás dessa decisão foi o fato do template de slides sobre o qual iria me basear ter alguns... problemas que eu não queria ter que lidar naquele momento. --&gt;&lt;/p&gt;
 
 &lt;p&gt;Starting with this conversion was a good idea because I learnt how a few things in LaTeX that I had already stumbled into actually worked.
-For example, what does the &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\relax&lt;/code&gt; command do (nothing, literally), what do the
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\makeatletter&lt;/code&gt; and
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\makeatother&lt;/code&gt; (respectively makes the @ symbol be interpreted as a letter and a special character)
-commands do and the difference between &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\usepackage&lt;/code&gt; and
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\RequirePackage&lt;/code&gt; (the first should only be used in
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; files and the second should only be used in
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt; files).
-All things considered, this part was easy, all I had to do was copy the definitions from the &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; file
-to a &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt; of same name, added some options to conditionally load some packages, added some more comments
+For example, what does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\relax&lt;/code&gt; command do (nothing, literally), what do the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\makeatletter&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\makeatother&lt;/code&gt; (respectively makes the @ symbol be interpreted as a letter and a special character)
+commands do and the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\usepackage&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\RequirePackage&lt;/code&gt; (the first should only be used in
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tex&lt;/code&gt; files and the second should only be used in
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.sty&lt;/code&gt; files).
+All things considered, this part was easy, all I had to do was copy the definitions from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file
+to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.sty&lt;/code&gt; of same name, added some options to conditionally load some packages, added some more comments
 explaining everything and it was done… after I spent about an hour debugging the options, yes, but those are minor details.
-&lt;!-- Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito, por exemplo o que faz o comando &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\relax&lt;/code&gt; (nada, literalmente), o que fazem os comandos &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\makeatletter&lt;/code&gt; (força o símbolo &quot;@&quot; a ser interpretado como uma letra) e &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\makeatother&lt;/code&gt; (força o símbolo &quot;@&quot; a ser interpretado como um símbolo especial) e a diferença entre &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\usepackage&lt;/code&gt; e &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;\RequirePackage&lt;/code&gt; (o primeiro deve ser usado em arquivos &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; e o segundo em &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt;). No mais, essa parte foi fácil, copiei todas as minhas definições do &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; para um &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.sty&lt;/code&gt; de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto... depois eu fiquei cerca de uma hora debugando a opções, sim, porém isso são detalhes. --&gt;&lt;/p&gt;
+&lt;!-- Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito, por exemplo o que faz o comando `\relax` (nada, literalmente), o que fazem os comandos `\makeatletter` (força o símbolo &quot;@&quot; a ser interpretado como uma letra) e `\makeatother` (força o símbolo &quot;@&quot; a ser interpretado como um símbolo especial) e a diferença entre `\usepackage` e `\RequirePackage` (o primeiro deve ser usado em arquivos `.tex` e o segundo em `.sty`). No mais, essa parte foi fácil, copiei todas as minhas definições do `.tex` para um `.sty` de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto... depois eu fiquei cerca de uma hora debugando a opções, sim, porém isso são detalhes. --&gt;&lt;/p&gt;
 
 &lt;p&gt;With that done, I then went on to make my templates for papaers in both portuguese and english, something that also was rather easy.
 As I already had made dozens of papers in LateX this was only a matter of checking which packages I normally used, adding some comments explaining what each package does
@@ -80,7 +80,7 @@ dog for a walk.
 &lt;p&gt;It took a few days for my will to work on this return, but when it did I decied that I was going to abandon this cursed theme and customize one of the standard themes
 from beamer. I then looked for a list of all standard beamer themes when I noticed that the &lt;a href=&quot;https://latex-beamer.com/tutorials/beamer-themes/5/#Warsaw&quot;&gt;Warsaw&lt;/a&gt; theme was nearly identical to the &lt;a href=&quot;https://github.com/aldomann/latex-templates/blob/master/Beamer%20Template/ru-theme.sty&quot;&gt;ru theme&lt;/a&gt; I was
 trying to customize. After thinking for a few moments, I decided that I was going to find out what on earth was wrong with this theme.
-&lt;!-- Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;beamer&lt;/code&gt;. Eu então fui atrás de uma lista de temas do &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;beamer&lt;/code&gt; quando me deparei com o tema [Warsaw][warsaw] e percebi, para minha surpresa, que ele era praticamente igual ao [ru theme][ru-theme]. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme. --&gt;&lt;/p&gt;
+&lt;!-- Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do `beamer`. Eu então fui atrás de uma lista de temas do `beamer` quando me deparei com o tema [Warsaw][warsaw] e percebi, para minha surpresa, que ele era praticamente igual ao [ru theme][ru-theme]. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme. --&gt;&lt;/p&gt;
 
 &lt;p&gt;After several minutes scrounging the internet and my local installation of LaTeX, I found the souce code of the theme and, immediately afterwards, I &lt;a href=&quot;https://www.youtube.com/watch?v=IdoD2147Fik&quot;&gt;calmly&lt;/a&gt;
 exclamed my surprise and insatisfaction with the creator of ru theme.
@@ -89,26 +89,24 @@ exclamed my surprise and insatisfaction with the creator of ru theme.
 &lt;p&gt;The reason is quite simple. Bellow is the definition of the title box in ru theme:
 &lt;!-- O motivo é simples. Abaixo está a definição da caixa que contém o título dos slides no ru theme: --&gt;&lt;/p&gt;
 
-&lt;pre style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;
-\begin{pgfpicture}{0.1mm}{0pt}{1.01\paperwidth}{\beamer@tempdim}
-  \usebeamercolor{frametitle right}
-  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-  \pgfusepath{clip}
-  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-\end{pgfpicture}
-&lt;/pre&gt;
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{pgfpicture}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;0.1mm&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;1.01&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\usebeamercolor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;frametitle right&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\pgfpathrectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpointorigin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpoint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\pgfusepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;clip&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\pgftext&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[left,base]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfuseshading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;beamer@frametitleshade&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{pgfpicture}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;And bellow is the definition of the same box in Warsaw:
 &lt;!-- E abaixo está a definição no tema Warsaw: --&gt;&lt;/p&gt;
 
-&lt;pre style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;
-\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
-  \usebeamercolor{frametitle right}
-  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-  \pgfusepath{clip}
-  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-\end{pgfpicture}
-&lt;/pre&gt;
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{pgfpicture}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\usebeamercolor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;frametitle right&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\pgfpathrectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpointorigin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpoint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\pgfusepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;clip&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\pgftext&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[left,base]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfuseshading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;beamer@frametitleshade&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{pgfpicture}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Notice how the value of the first argument is different. Yes, that was the problem. Zero point one milimetres.&lt;/p&gt;
 
@@ -121,9 +119,9 @@ he made this theme. We shall never know.
 &lt;!-- De qualquer forma, eu erroneamente acreditei que os valores que o criador do tema havia fornecido estariam corretos. Talvez eles estivessem, para o uso que o criador tinha em mente quando ele fez este tema. Nunca saberemos. --&gt;&lt;/p&gt;
 
 &lt;p&gt;So, after this joyous experience, I had some other minor run ins with LaTeX, amidst then I finished my template for slides, I created a template for abstract for an
-event I’m helping to organize here and I had to convert a &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; file into a
-&lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.docx&lt;/code&gt;, which was as fun as it sounds. None of which were interesting enough to document here.
-&lt;!-- Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas montar meu template de slides, criar um template para um evento que estou ajudando a organizar e converter um arquivo &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.tex&lt;/code&gt; em um &lt;code style=&quot;background-color: rgb(38, 41, 34)&quot;&gt;.docx&lt;/code&gt; (essa foi uma dor de cabeça) mas nada demais para registrar aqui. --&gt;&lt;/p&gt;
+event I’m helping to organize here and I had to convert a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file into a
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.docx&lt;/code&gt;, which was as fun as it sounds. None of which were interesting enough to document here.
+&lt;!-- Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas montar meu template de slides, criar um template para um evento que estou ajudando a organizar e converter um arquivo `.tex` em um `.docx` (essa foi uma dor de cabeça) mas nada demais para registrar aqui. --&gt;&lt;/p&gt;
 
 </description>
         <pubDate>2025-01-25</pubDate>
