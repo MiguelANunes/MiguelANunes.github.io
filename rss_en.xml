@@ -45,21 +45,23 @@ Por exemplo, o que faz o comando &lt;code class=&quot;language-plaintext highlig
 
 &lt;p&gt;O motivo é simples. Abaixo está a definição da caixa que contém o título dos slides no ru theme:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span class=&quot;nt&quot;&gt;\begin{pgfpicture}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;0.1mm&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;1.01&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{pgfpicture}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;0.1mm&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;1.01&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\usebeamercolor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;frametitle right&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\pgfpathrectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpointorigin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpoint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\pgfusepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;clip&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\pgftext&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[left,base]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfuseshading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;beamer@frametitleshade&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;\end{pgfpicture}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{pgfpicture}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;E abaixo está a definição no tema Warsaw:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span class=&quot;nt&quot;&gt;\begin{pgfpicture}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{pgfpicture}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;0pt&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\usebeamercolor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;frametitle right&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\pgfpathrectangle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpointorigin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfpoint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\paperwidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\beamer&lt;/span&gt;@tempdim&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\pgfusepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;clip&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;\pgftext&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[left,base]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\pgfuseshading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;beamer@frametitleshade&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;\end{pgfpicture}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{pgfpicture}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Perceba como o valor do primeiro argumento é diferente. Sim, esse era o problema. Zero ponto um milímetros.&lt;/p&gt;
 
