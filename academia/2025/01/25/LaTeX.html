@@ -247,10 +247,10 @@
 
 <p>Depois da apresentação eu fiquei pensando sobre quanto tempo eu tinha gasto customizando esse template e brigando com o tema dele ao invés de fazer a apresentação em si, o que me deu a ideia de criar meu próprio tema de slides, assim como templates para apresentações de slides e para artigos, ambos em português e inglês, assim como montar um pacote com minhas macros e outras definições uteis que fiz com os anos. Nesse post eu vou falar um pouco sobre a aventura que foi isso.</p>
 
-<p>Apesar que o tema de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo <code style="background-color: rgb(38, 41, 34)">.tex</code> de definições úteis em um pacote <code style="background-color: rgb(38, 41, 34)">.sty</code>. O principal motivo por trás dessa decisão foi o fato do tema de slides sobre o qual iria me basear ter alguns… problemas que eu não queria ter que lidar naquele momento.</p>
+<p>Apesar que o tema de slides foi o que me levou a ter essa ideia inicialmente, eu decidi começar essa aventura convertendo um arquivo <code class="language-plaintext highlighter-rouge">.tex</code> de definições úteis em um pacote <code class="language-plaintext highlighter-rouge">.sty</code>. O principal motivo por trás dessa decisão foi o fato do tema de slides sobre o qual iria me basear ter alguns… problemas que eu não queria ter que lidar naquele momento.</p>
 
 <p>Começar com essa conversão foi uma boa ideia, pois aprendi como funcionavam algumas coisas do LaTeX  que já havia me deparado mas nunca tinha entendido direito. 
-Por exemplo, o que faz o comando <code style="background-color: rgb(38, 41, 34)">\relax</code> (nada, literalmente), o que fazem os comandos <code style="background-color: rgb(38, 41, 34)">\makeatletter</code> e <code style="background-color: rgb(38, 41, 34)">\makeatother</code> (respectivamente, forçam o símbolo “@” a ser interpretado como uma letra e como um símbolo especial) e a diferença entre <code style="background-color: rgb(38, 41, 34)">\usepackage</code> e <code style="background-color: rgb(38, 41, 34)">\RequirePackage</code> (o primeiro deve ser usado em arquivos <code style="background-color: rgb(38, 41, 34)">.tex</code> e o segundo em <code style="background-color: rgb(38, 41, 34)">.sty</code>). No mais, essa parte foi fácil, copiei todas as minhas definições do <code style="background-color: rgb(38, 41, 34)">.tex</code> para um <code style="background-color: rgb(38, 41, 34)">.sty</code> de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto… depois eu fiquei cerca de uma hora debugando as opções, sim, porém isso são detalhes.</p>
+Por exemplo, o que faz o comando <code class="language-plaintext highlighter-rouge">\relax</code> (nada, literalmente), o que fazem os comandos <code class="language-plaintext highlighter-rouge">\makeatletter</code> e <code class="language-plaintext highlighter-rouge">\makeatother</code> (respectivamente, forçam o símbolo “@” a ser interpretado como uma letra e como um símbolo especial) e a diferença entre <code class="language-plaintext highlighter-rouge">\usepackage</code> e <code class="language-plaintext highlighter-rouge">\RequirePackage</code> (o primeiro deve ser usado em arquivos <code class="language-plaintext highlighter-rouge">.tex</code> e o segundo em <code class="language-plaintext highlighter-rouge">.sty</code>). No mais, essa parte foi fácil, copiei todas as minhas definições do <code class="language-plaintext highlighter-rouge">.tex</code> para um <code class="language-plaintext highlighter-rouge">.sty</code> de mesmo nome, adicionei algumas opções para carregar certos pacotes apenas se passo a opção, adicionei mais alguns comentários e estava pronto… depois eu fiquei cerca de uma hora debugando as opções, sim, porém isso são detalhes.</p>
 
 <p>Com isso feito, eu parti para fazer os meus templates de artigos em português e inglês, algo que também foi um tanto fácil. Como eu já tinha feito dezenas de artigos em LaTeX foi apenas uma questão de ver quais pacotes eu normalmente usava, criar um comentário explicando o que cada um faz e preencher alguns campos como o autor e o título de algumas seções. As diferenças entre as versões em português e inglês são mínimas, então não irei dar detalhes sobre.</p>
 
@@ -270,31 +270,27 @@ Por exemplo, o que faz o comando <code style="background-color: rgb(38, 41, 34)"
 
 <p>Nesse momento eu lembrei de um excelente vídeo do Computerphile sobre <a href="https://youtu.be/-5wpm-gesOY?si=04NiR97PpAMbTRZL&amp;t=158">fusos horários</a>, questionei se valia a pena fazer o que eu estava fazendo, fechei o VSCode e levei meu cachorro pra passear.</p>
 
-<p>Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do <code style="background-color: rgb(38, 41, 34)">beamer</code>. Eu então fui atrás de uma lista de temas do <code style="background-color: rgb(38, 41, 34)">beamer</code> quando me deparei com o tema <a href="https://latex-beamer.com/tutorials/beamer-themes/5/#Warsaw">Warsaw</a> e percebi, para minha surpresa, que ele era praticamente igual ao <a href="https://github.com/aldomann/latex-templates/blob/master/Beamer%20Template/ru-theme.sty">ru theme</a>. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme.</p>
+<p>Levou alguns dias até a vontade de trabalhar nisso voltar, mas quando ela voltou, eu decidi que iria abandonar esse tema e customizar um tema padrão do <code class="language-plaintext highlighter-rouge">beamer</code>. Eu então fui atrás de uma lista de temas do <code class="language-plaintext highlighter-rouge">beamer</code> quando me deparei com o tema <a href="https://latex-beamer.com/tutorials/beamer-themes/5/#Warsaw">Warsaw</a> e percebi, para minha surpresa, que ele era praticamente igual ao <a href="https://github.com/aldomann/latex-templates/blob/master/Beamer%20Template/ru-theme.sty">ru theme</a>. Após pensar por alguns momentos, eu decidi que iria descobrir o que havia de errado com o ru theme.</p>
 
 <p>Após alguns minutos fuçando pela internet e depois por minha instalação local de LaTeX, eu achei o código fonte do tema e, consequentemente, eu <a href="https://www.youtube.com/watch?v=IdoD2147Fik">calmamente</a> exclamei minha surpresa e minha insatisfação com o criador do ru theme.</p>
 
 <p>O motivo é simples. Abaixo está a definição da caixa que contém o título dos slides no ru theme:</p>
 
-<pre style="background-color: rgb(38, 41, 34)">
-\begin{pgfpicture}{0.1mm}{0pt}{1.01\paperwidth}{\beamer@tempdim}
-  \usebeamercolor{frametitle right}
-  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-  \pgfusepath{clip}
-  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-\end{pgfpicture}
-</pre>
+<figure class="highlight"><pre><code class="language-latex" data-lang="latex"><span class="nt">\begin{pgfpicture}</span><span class="p">{</span>0.1mm<span class="p">}{</span>0pt<span class="p">}{</span>1.01<span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}</span>
+  <span class="k">\usebeamercolor</span><span class="p">{</span>frametitle right<span class="p">}</span>
+  <span class="k">\pgfpathrectangle</span><span class="p">{</span><span class="k">\pgfpointorigin</span><span class="p">}{</span><span class="k">\pgfpoint</span><span class="p">{</span><span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}}</span>
+  <span class="k">\pgfusepath</span><span class="p">{</span>clip<span class="p">}</span>
+  <span class="k">\pgftext</span><span class="na">[left,base]</span><span class="p">{</span><span class="k">\pgfuseshading</span><span class="p">{</span>beamer@frametitleshade<span class="p">}}</span>
+<span class="nt">\end{pgfpicture}</span></code></pre></figure>
 
 <p>E abaixo está a definição no tema Warsaw:</p>
 
-<pre style="background-color: rgb(38, 41, 34)">
-\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
-  \usebeamercolor{frametitle right}
-  \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
-  \pgfusepath{clip}
-  \pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
-\end{pgfpicture}
-</pre>
+<figure class="highlight"><pre><code class="language-latex" data-lang="latex"><span class="nt">\begin{pgfpicture}</span><span class="p">{</span>0pt<span class="p">}{</span>0pt<span class="p">}{</span><span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}</span>
+  <span class="k">\usebeamercolor</span><span class="p">{</span>frametitle right<span class="p">}</span>
+  <span class="k">\pgfpathrectangle</span><span class="p">{</span><span class="k">\pgfpointorigin</span><span class="p">}{</span><span class="k">\pgfpoint</span><span class="p">{</span><span class="k">\paperwidth</span><span class="p">}{</span><span class="k">\beamer</span>@tempdim<span class="p">}}</span>
+  <span class="k">\pgfusepath</span><span class="p">{</span>clip<span class="p">}</span>
+  <span class="k">\pgftext</span><span class="na">[left,base]</span><span class="p">{</span><span class="k">\pgfuseshading</span><span class="p">{</span>beamer@frametitleshade<span class="p">}}</span>
+<span class="nt">\end{pgfpicture}</span></code></pre></figure>
 
 <p>Perceba como o valor do primeiro argumento é diferente. Sim, esse era o problema. Zero ponto um milímetros.</p>
 
@@ -302,7 +298,7 @@ Por exemplo, o que faz o comando <code style="background-color: rgb(38, 41, 34)"
 
 <p>De qualquer forma, eu erroneamente acreditei que os valores que o criador do tema havia fornecido estariam corretos. Talvez eles estivessem, para o uso que o criador tinha em mente quando ele fez este tema. Nunca saberemos.</p>
 
-<p>Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas montar meu template de slides, criar um template para um evento que estou ajudando a organizar e converter um arquivo <code style="background-color: rgb(38, 41, 34)">.tex</code> em um <code style="background-color: rgb(38, 41, 34)">.docx</code> (essa foi uma dor de cabeça) mas nada demais para registrar aqui.</p>
+<p>Após isso, eu tive algumas outras (des)aventuras com LaTeX, dentre elas montar meu template de slides, criar um template para um evento que estou ajudando a organizar e converter um arquivo <code class="language-plaintext highlighter-rouge">.tex</code> em um <code class="language-plaintext highlighter-rouge">.docx</code> (essa foi uma dor de cabeça) mas nada demais para registrar aqui.</p>
 
 
     
