@@ -1,9 +1,9 @@
 {% assign lang = site.active_lang %}
+{%- assign date_format = site.date_formats[lang] -%}
 
 <div class="post-meta">
-  <!-- <span class="post-date">{{ include.post.date[lang] | date_to_string }}</span> -->
+  <span class="post-date">{{ post.date | date: date_format }}</span>
   <span class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-    {%- assign date_format = site.date_formats[lang] | default: "%b %-d, %Y" -%}
     {{ page.date | date: date_format }}
   </span>
   <span class="post-categories">

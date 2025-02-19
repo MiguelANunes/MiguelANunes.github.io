@@ -18,10 +18,18 @@
   
   <div class="wrapper">
     {% assign is_first_language = true %}
+    {% assign printing_languages = "Português, English, Deutsch" | split: "," %}
     {% for tongue in site.languages %}
-    {% if is_first_language == false %}|{% endif %}
-    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>
-    {% assign is_first_language = false %}
+      {% if is_first_language == false %}|{% endif %}
+        <a 
+          {% if tongue == site.active_lang %}
+            style="font-weight: bold;"
+          {% endif %}
+          {% static_href %}
+            href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"
+          {% endstatic_href %} >
+        {{ printing_languages[forloop.index0] }}</a>
+      {% assign is_first_language = false %}
     {% endfor %}
   </div>
 

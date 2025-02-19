@@ -1,10 +1,8 @@
 ---
 layout: page
-permalink: /about/
+permalink: /
 title: Sobre
 lang: pt_BR
-sidebar_link: true
-sidebar_sort_order: 1
 ---
 
 Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes, sou bacharel em Ciência da Computação pela
@@ -30,7 +28,7 @@ Para fins acadêmicos, você pode me encontrar no:
 - [Google Scholar][scholar].
 
 Não vou colocar meu e-mail por extenso para evitar (ainda mais) spam, mas ele é
-<code style="background-color: rgb(38, 41, 34)">meu.nome.completo@gmail.com</code>.
+`meu.nome.completo@gmail.com`.
 
 Este blog é baseado em [Jekyll][jekyll], publicado pelo [GitHub Pages][ghp], o tema que uso
 é uma customização do [Hydeout][hydeout] e o suporte para múltiplos idiomas foi feita baseado num tutorial por
