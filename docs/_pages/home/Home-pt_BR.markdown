@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /
-title: Sobre
+title: Sobre Mim
 lang: pt_BR
 ---
 
