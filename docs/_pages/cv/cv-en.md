@@ -4,7 +4,7 @@ permalink: /cv/
 title: My Resume
 lang: en
 sidebar_link: true
-sidebar_sort_order: 3
+sidebar_sort_order: 4
 ---
 
 You can download my resume clicking [here][CV]{:target="_blank"}.

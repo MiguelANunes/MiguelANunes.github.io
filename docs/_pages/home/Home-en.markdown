@@ -8,7 +8,8 @@ lang: en
 Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
 State University of Santa Catarina (UDESC in the portuguese acronym), I'm a member of the Research Group on Foundations
 of Computation ([FUNÇÃO][funcao]  in the portuguese acronym) and I'm currently pursuing a master's degree in
-philosophy at the State University of Campinas (Unicamp), where the theme of my dissertation is logic and combinations of logics.
+philosophy at the State University of Campinas (Unicamp), my advisor is professor [Juliana Bueno][juliana].
+Logic and combinations of logics are the main themes of my dissertation.
 
 My main goal with this blog is writing about the things I'm researching about in my master's, things that I'm studying and
 find interesting, as well as eventual digressions into academic life (and it's hardships) and whatever else I may want to write about.
@@ -27,8 +28,7 @@ For academic purposes, you may find me at:
 - [ORCID][orcid];
 - [Google Scholar][scholar].
 
-I won't add my full e-mail to avoid (even more) spam, but it is
-<code style="background-color: rgb(38, 41, 34)">my.full.name@gmail.com</code>.
+I won't add my full e-mail to avoid (even more) spam, but it is `my.full.name@gmail.com`.
 
 This blog is based on [Jekyll][jekyll], published by [GitHub Pages][ghp], the theme I'm using
 is a customization of the [Hydeout][hydeout] theme and multi language support was implemented base on a tutorial
@@ -36,6 +36,7 @@ by Ulrich R., available [here][ulrich]. I'm thankful for my friend
 [João Vitor Fröhlich][jvf] for his many suggestions and his help during the development of this blog.
 
 [funcao]: https://github.com/funcao
+[juliana]: http://lattes.cnpq.br/5824391030945544
 
 [github]: https://github.com/MiguelANunes
 [linkedin]: https://www.linkedin.com/in/miguel-nunes-9b0198341/

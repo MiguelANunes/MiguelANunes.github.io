@@ -4,7 +4,7 @@ permalink: /cv/
 title: Mein Lebenslauf
 lang: de
 sidebar_link: true
-sidebar_sort_order: 3
+sidebar_sort_order: 4
 ---
 
 ## TBD

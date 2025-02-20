@@ -1,5 +1,21 @@
+{% assign lang = site.active_lang %}
+
 <p>
-  &copy; {{ site.time | date: '%Y' }}.
-  Some rights reserved.
-  <!-- <a href="{{ "/LICENSE.md" | relative_url }}">MIT License.</a> -->
+  <small>
+    <small>
+      {% if lang == "pt_BR" %} 
+        Última Atualização: {{ site.time | date: '%Y-%m-%d'}}.
+        <br>
+        Usado de acordo com a <a href="{{ "/license/" | relative_url }}">licença</a>.
+      {% elsif lang == "en" %}
+        Last Updated: {{ site.time | date: '%Y-%m-%d'}}.
+        <br>
+        Used in accordance with the <a href="{{ "/license/" | relative_url }}">license</a>.
+      {% else %}
+        Zuletzt aktualisiert: {{ site.time | date: '%Y-%m-%d'}}.
+        <br>
+        Wird gemäß der <a href="{{ "/license/" | relative_url }}">Lizenz</a>.
+      {% endif %}
+    </small>
+  </small>
 </p>
