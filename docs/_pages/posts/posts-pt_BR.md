@@ -3,7 +3,6 @@ layout: index
 permalink: /posts/
 title: Meus Posts
 lang: pt_BR
-posts_to_show: 
 sidebar_link: true
 sidebar_sort_order: 2
 ---
