@@ -3,8 +3,8 @@ layout: page
 permalink: /ratiolog/
 title: Third RatioLog
 lang: en
-sidebar_link: true
-sidebar_sort_order: 1
+# sidebar_link: true
+# sidebar_sort_order: 1
 ---
 
 I'm helping to organize a event that will happen at CLE/Unicamp in may, called [RatioLog][RL],

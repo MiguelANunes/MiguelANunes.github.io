@@ -10,9 +10,9 @@ title:
   de: Miguel Alfredo Nunes
 email: miguel.alfredo.nunes@gmail.com
 description:
-  pt_BR: Aluno de Mestrado em Filosofia na Unicamp, lógico e cientista da computação. Nesse blog escrevei e divagarei sobre estes e outros assuntos.
-  en: Master's student of Philosophy at Unicamp, logician and computer scientist. In this blog I'll write and digress about these and other topics.
-  de: Masterstudent der Philosophie an der Unicamp, Logiker und Informatiker. In diesem Blog schreibe und schweife ich über diese und andere themen ab. Ich spreche noch kein Deutsch, daher werden die Updates auf Deutsch langsam sein.
+  pt_BR: Aluno de Mestrado em Filosofia na Unicamp, lógico e cientista da computação. #Nesse blog escrevei e divagarei sobre estes e outros assuntos.
+  en: Master's student of Philosophy at Unicamp, logician and computer scientist. #In this blog I'll write and digress about these and other topics.
+  de: Masterstudent der Philosophie an der Unicamp, Logiker und Informatiker. Ich spreche noch kein Deutsch, daher werden die Updates auf Deutsch langsam sein. #In diesem Blog schreibe und schweife ich über diese und andere themen ab.
 date_formats:
   pt_BR: "%Y-%m-%d"
   en: "%Y-%m-%d"
