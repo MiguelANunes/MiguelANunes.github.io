@@ -33,4 +33,4 @@ My Instagram and BlueSky are for personal use, but you can find then with a litt
 [orcid]: https://orcid.org/0000-0002-3997-8474
 [scholar]: https://scholar.google.com/citations?user=LifdZVUAAAAJ&hl=pt-BR
 
-[poster]: https://example.com
+[poster]: https://drive.google.com/drive/folders/1pY9EUtricQzZlZmfLVdvg9JGpbCCwmnC?usp=drive_link

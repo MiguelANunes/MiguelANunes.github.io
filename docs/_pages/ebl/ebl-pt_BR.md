@@ -29,4 +29,4 @@ Meu Instagram e BlueSky são pessoais, mas você consegue encontrar eles com um 
 [orcid]: https://orcid.org/0000-0002-3997-8474
 [scholar]: https://scholar.google.com/citations?user=LifdZVUAAAAJ&hl=pt-BR
 
-[poster]: https://example.com
+[poster]: https://drive.google.com/drive/folders/1pY9EUtricQzZlZmfLVdvg9JGpbCCwmnC?usp=drive_link
