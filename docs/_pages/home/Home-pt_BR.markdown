@@ -4,17 +4,20 @@ permalink: /
 title: Sobre Mim
 lang: pt_BR
 ---
-
+<!-- 
 Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes, sou bacharel em Ciência da Computação pela
 Universidade do Estado de Santa Catarina (UDESC), sou membro do Grupo de Pesquisa em Fundamentos da Computação ([FUNÇÃO][funcao])
 e atualmente estou cursando meu mestrado em Filosofia pela Universidade Estadual de Campinas (Unicamp), orientado
-pela professora [Juliana Bueno][juliana]. Lógica e combinações de lógicas são os tema da minha dissertação.
+pela professora [Juliana Bueno][juliana]. Lógica e combinações de lógicas são os tema da minha dissertação. -->
 
-Meu objetivo com esse blog é escrever sobre as coisas que estou pesquisando no meu mestrado, coisas que estou estudando e que acho legais,
+Aluno de Mestrado em Filosofia pela Universidade Estadual de Campinas (UNICAMP), orientado pela professora [Juliana Bueno][juliana].
+Bacharel em Ciência da Computação pela Universidade do Estado de Santa Catarina (UDESC), membro do Grupo de Pesquisa em Fundamentos da Computação ([FUNÇÃO][funcao]).
+
+<!-- Meu objetivo com esse blog é escrever sobre as coisas que estou pesquisando no meu mestrado, coisas que estou estudando e que acho legais,
 assim como eventuais digressões sobre a vida acadêmica (e suas mazelas) e outras coisas que queira escrever sobre.
 
 Outro objetivo com esse blog é praticar minha escrita em outros idiomas. Por enquanto
-o único outro idioma que escreverei é inglês, visto que ainda não aprendi alemão, mas enquanto estiver aprendendo irei traduzindo as páginas e publicações.
+o único outro idioma que escreverei é inglês, visto que ainda não aprendi alemão, mas enquanto estiver aprendendo irei traduzindo as páginas e publicações. -->
 
 Minhas redes sociais são pessoais, porém você pode me encontrar no:
 

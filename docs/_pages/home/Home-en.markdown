@@ -5,17 +5,21 @@ title: About me
 lang: en
 ---
 
-Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
+<!-- Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
 State University of Santa Catarina (UDESC in the portuguese acronym), I'm a member of the Research Group on Foundations
 of Computation ([FUNÇÃO][funcao]  in the portuguese acronym) and I'm currently pursuing a master's degree in
 philosophy at the State University of Campinas (Unicamp), my advisor is professor [Juliana Bueno][juliana].
-Logic and combinations of logics are the main themes of my dissertation.
+Logic and combinations of logics are the main themes of my dissertation. -->
 
-My main goal with this blog is writing about the things I'm researching about in my master's, things that I'm studying and
+Master's student in philosophy at the State University of Campinas (UNICAMP), advised by professor [Juliana Bueno][juliana].
+Bachelor in Computer Science by the State University of Santa Catarina (UDESC in the portuguese acronym), member of the
+Research Group on Foundations of Computation ([FUNÇÃO][funcao]  in the portuguese acronym).
+
+<!-- My main goal with this blog is writing about the things I'm researching about in my master's, things that I'm studying and
 find interesting, as well as eventual digressions into academic life (and it's hardships) and whatever else I may want to write about.
 
 Another goal with this blog is practicing my writing in other languages. Currently, aside from portuguese, I'll only be writing in english,
-as I've yet to learn german, but once I have I'll slowly translate the pages and posts.
+as I've yet to learn german, but once I have I'll slowly translate the pages and posts. -->
 
 My social media are for friends only, but you may find me at:
 
