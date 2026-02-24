@@ -4,7 +4,7 @@ permalink: /cv/
 title: My Resume
 lang: en
 sidebar_link: true
-sidebar_sort_order: 4
+sidebar_sort_order: 99
 ---
 
 My professional and academic resume.

@@ -4,7 +4,7 @@ permalink: /cv/
 title: Meu Currículo
 lang: pt_BR
 sidebar_link: true
-sidebar_sort_order: 4
+sidebar_sort_order: 99
 ---
 
 Meu currículo profissional e acadêmico.

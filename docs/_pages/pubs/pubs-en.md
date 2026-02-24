@@ -4,10 +4,11 @@ permalink: /pubs/
 title: Research
 lang: en
 sidebar_link: true
-sidebar_sort_order: 3
+sidebar_sort_order: 98
 ---
 
-In this page I'll list all papers and other academic works I've published. Eventually I'll write posts about those works, which will be linked here.
+In this page I'll list all papers and other academic works I've published. 
+In case I ever want to say something more about one of these works, I'll write a post about them that will be linked here.
 
 ## Full Papers Published in Conference Proceedings
 

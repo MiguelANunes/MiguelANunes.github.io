@@ -3,7 +3,7 @@ layout: page
 permalink: /ebl/
 title: Brazilian Logic Conference
 lang: en
-sidebar_link: true
+sidebar_link: false
 sidebar_sort_order: 1
 ---
 

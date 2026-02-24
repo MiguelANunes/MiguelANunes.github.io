@@ -4,10 +4,11 @@ permalink: /pubs/
 title: Pesquisa
 lang: pt_BR
 sidebar_link: true
-sidebar_sort_order: 3
+sidebar_sort_order: 98
 ---
 
-Nesta página listo os artigos e outros trabalhos acadêmicos que já publiquei. Eventualmente escrevei posts sobre esses trabalhos, que serão acessíveis por aqui.
+Nesta página listo os artigos e outros trabalhos acadêmicos que já publiquei. 
+Caso eu eventualmente queira comentar mais sobre estes trabalhos, irei escrever um post sobre eles que estará linkado aqui.
 
 ## Trabalhos Completos Publicados em Anais de Congressos
 

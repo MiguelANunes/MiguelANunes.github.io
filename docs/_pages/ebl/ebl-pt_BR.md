@@ -3,7 +3,7 @@ layout: page
 permalink: /ebl/
 title: Encontro Brasileiro de Lógica
 lang: pt_BR
-sidebar_link: true
+sidebar_link: false
 sidebar_sort_order: 1
 ---
 

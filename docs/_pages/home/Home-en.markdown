@@ -9,11 +9,20 @@ lang: en
 State University of Santa Catarina (UDESC in the portuguese acronym), I'm a member of the Research Group on Foundations
 of Computation ([FUNÇÃO][funcao]  in the portuguese acronym) and I'm currently pursuing a master's degree in
 philosophy at the State University of Campinas (Unicamp), my advisor is professor [Juliana Bueno][juliana].
-Logic and combinations of logics are the main themes of my dissertation. -->
+Logic and combinations of logics are the main themes of my dissertation. 
 
-Master's student in philosophy at the State University of Campinas (UNICAMP), advised by professor [Juliana Bueno][juliana].
-Bachelor in Computer Science by the State University of Santa Catarina (UDESC in the portuguese acronym), member of the
-Research Group on Foundations of Computation ([FUNÇÃO][funcao]  in the portuguese acronym).
+Aluno de Doutorado em Filosofia pela Universidade Estadual de Campinas (UNICAMP), orientado pela professora [Juliana Bueno][juliana].
+Mestre em Filosofia pela mesma instituição e Bacharel em Ciência da Computação pela Universidade do Estado de Santa Catarina (UDESC).
+
+Minha pesquisa no mestrado se concentrou no tópico de combinação de lógicas modais e paraconsistentes, já no doutorado estou estudando
+lógicas anotadas e seu relacionamento com outras famílias de lógicas paraconsistentes.
+-->
+
+PhD student in philosophy at the State University of Campinas (UNICAMP), advised by professor [Juliana Bueno][juliana].
+Master in Philosophy by the same institution and Bachelor in Computer Science by the State University of Santa Catarina (UDESC in the portuguese acronym).
+
+My research during my master's focused on the theme of combining modal and paraconsistent logics, while in my PhD I'm studying annotated
+logics and their relationship with other kinds of paraconsistent logics. 
 
 <!-- My main goal with this blog is writing about the things I'm researching about in my master's, things that I'm studying and
 find interesting, as well as eventual digressions into academic life (and it's hardships) and whatever else I may want to write about.
@@ -37,7 +46,7 @@ I won't add my full e-mail to avoid (even more) spam, but it is `my.full.name@gm
 This blog is based on [Jekyll][jekyll], published by [GitHub Pages][ghp], the theme I'm using
 is a customization of the [Hydeout][hydeout] theme and multi language support was implemented base on a tutorial
 by Ulrich R., available [here][ulrich]. I'm thankful for my friend
-[João Vitor Fröhlich][jvf] for his many suggestions and his help during the development of this blog.
+Elisa for her many suggestions and her help during the development of this blog.
 
 [funcao]: https://github.com/funcao
 [juliana]: http://lattes.cnpq.br/5824391030945544

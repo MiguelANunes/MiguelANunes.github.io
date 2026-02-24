@@ -10,8 +10,11 @@ Universidade do Estado de Santa Catarina (UDESC), sou membro do Grupo de Pesquis
 e atualmente estou cursando meu mestrado em Filosofia pela Universidade Estadual de Campinas (Unicamp), orientado
 pela professora [Juliana Bueno][juliana]. Lógica e combinações de lógicas são os tema da minha dissertação. -->
 
-Aluno de Mestrado em Filosofia pela Universidade Estadual de Campinas (UNICAMP), orientado pela professora [Juliana Bueno][juliana].
-Bacharel em Ciência da Computação pela Universidade do Estado de Santa Catarina (UDESC), membro do Grupo de Pesquisa em Fundamentos da Computação ([FUNÇÃO][funcao]).
+Aluno de Doutorado em Filosofia pela Universidade Estadual de Campinas (UNICAMP), orientado pela professora [Juliana Bueno][juliana].
+Mestre em Filosofia pela mesma instituição e Bacharel em Ciência da Computação pela Universidade do Estado de Santa Catarina (UDESC).
+
+Minha pesquisa no mestrado se concentrou no tópico de combinação de lógicas modais e paraconsistentes, já no doutorado estou estudando
+lógicas anotadas e seu relacionamento com outras famílias de lógicas paraconsistentes.
 
 <!-- Meu objetivo com esse blog é escrever sobre as coisas que estou pesquisando no meu mestrado, coisas que estou estudando e que acho legais,
 assim como eventuais digressões sobre a vida acadêmica (e suas mazelas) e outras coisas que queira escrever sobre.
@@ -35,7 +38,7 @@ Não vou colocar meu e-mail por extenso para evitar (ainda mais) spam, mas ele �
 
 Este blog é baseado em [Jekyll][jekyll], publicado pelo [GitHub Pages][ghp], o tema que uso
 é uma customização do [Hydeout][hydeout] e o suporte para múltiplos idiomas foi feita baseado num tutorial por
-Ulrich R., disponível [aqui][ulrich]. Agradeço ao meu amigo [João Vitor Fröhlich][jvf] por suas múltiplas sugestões e ajudas durante o desenvolvimento esse blog.
+Ulrich R., disponível [aqui][ulrich]. Agradeço a minha amiga Elisa por suas múltiplas sugestões e ajudas durante o desenvolvimento esse blog.
 
 [funcao]: https://github.com/funcao
 [juliana]: http://lattes.cnpq.br/5824391030945544
