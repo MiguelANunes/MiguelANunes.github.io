@@ -3,6 +3,7 @@ layout: page
 permalink: /
 title: About me
 lang: en
+is_home: true
 ---
 
 <!-- Hello and welcome to my blog! My name is Miguel Alfredo Nunes, I have a bachelor degree in Computer Science by the
@@ -48,7 +49,6 @@ is a customization of the [Hydeout][hydeout] theme and multi language support wa
 by Ulrich R., available [here][ulrich]. I'm thankful for my friend
 Elisa for her many suggestions and her help during the development of this blog.
 
-[funcao]: https://github.com/funcao
 [juliana]: http://lattes.cnpq.br/5824391030945544
 
 [github]: https://github.com/MiguelANunes
@@ -62,4 +62,3 @@ Elisa for her many suggestions and her help during the development of this blog.
 [ghp]: https://pages.github.com/
 [hydeout]: https://github.com/fongandrew/hydeout
 [ulrich]: https://www.rueth.info/multilingual-github-pages/
-[jvf]: https://joao-frohlich.github.io/

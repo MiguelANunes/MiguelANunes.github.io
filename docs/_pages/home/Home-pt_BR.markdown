@@ -3,6 +3,7 @@ layout: page
 permalink: /
 title: Sobre Mim
 lang: pt_BR
+is_home: true
 ---
 <!-- 
 Olá e bem vindo ao meu blog! Me chamo Miguel Alfredo Nunes, sou bacharel em Ciência da Computação pela
