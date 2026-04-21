@@ -3,10 +3,10 @@
   <channel>
     <title>Miguel Alfredo Nunes</title>
     <description>PhD student of Philosophy at UNICAMP, logician and computer scientist.</description>
-    <link href="https://miguelanunes.github.io//en/rss_en.xml" rel="self"/>
-    <link href="https://miguelanunes.github.io//en/"/>
-    <pubDate>2026-02-24</pubDate>
-    <lastBuildDate>2026-02-24</lastBuildDate>
+    <link href="http://localhost:4000/en/rss_en.xml" rel="self"/>
+    <link href="http://localhost:4000/en/"/>
+    <pubDate>2026-04-03</pubDate>
+    <lastBuildDate>2026-04-03</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
   </channel>
